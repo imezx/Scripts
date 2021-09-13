@@ -572,6 +572,8 @@ function autoPunch()
 	if not Auto_Punch then return end
 
 	while Auto_Punch do
+		if not Auto_Punch then return end
+		
 		if Fast_Mode then
 			wait(0.35)
 		else
@@ -587,6 +589,8 @@ function autoSkip()
 	if not Auto_Skip then return end
 
 	while Auto_Skip do
+		if not Auto_Skip then return end
+		
 		if Fast_Mode then
 			wait(0.1)
 		else
@@ -626,6 +630,7 @@ Button_2.MouseButton1Click:Connect(function()
 	BTN_1 = false
 	Auto_Punch = false
 	Auto_Skip = false
+	wait()
 	ScreenGui:Destroy()
 end)
 

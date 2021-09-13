@@ -389,7 +389,7 @@ function autoOrbs()
 			wait(0.5)
 		end
 
-		local MyWorld = game.Players.KhietslyDev_Alt.leaderstats.WORLD
+		local MyWorld = game.Players.LocalPlayer.leaderstats.WORLD
 		local TargetWorld = game.Workspace.Map.Stages.Boosts[MyWorld.Value]
 
 		for i,v in pairs(TargetWorld:GetChildren()) do

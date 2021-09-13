@@ -441,7 +441,7 @@ Button_3.Parent = Frame
 Button_3.ZIndex = 6
 Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_3.Name = "ToggleButton_3_Off"
-Button_3.Text = "Fast Orbs Mode [OFF]"
+Button_3.Text = "Fast Auto Mode [OFF]"
 Button_3.Size = UDim2.new(0.3,0,0.3,0)
 Button_3.Position = UDim2.new(0.355,0,0.14,0)
 Button_3.Font = Enum.Font.GothamBold
@@ -633,7 +633,7 @@ Button_3.MouseButton1Click:Connect(function()
 	if not Fast_Mode then
 		Button_3.BackgroundColor3 = Color3.new(0, 1, 0)
 		Button_3.Name = "ToggleButton_3_On"
-		Button_3.Text = "Fast Orbs Mode [ON]"
+		Button_3.Text = "Fast Auto Mode [ON]"
 		Fast_Mode = true
 		wait()
 		updatesaves()
@@ -641,7 +641,7 @@ Button_3.MouseButton1Click:Connect(function()
 	elseif Fast_Mode then
 		Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
 		Button_3.Name = "ToggleButton_3_Off"
-		Button_3.Text = "Fast Orbs Mode [OFF]"
+		Button_3.Text = "Fast Auto Mode [OFF]"
 		Fast_Mode = false
 		wait()
 		updatesaves()
@@ -764,13 +764,13 @@ if _LOAD then
 		Fast_Mode = false
 		Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
 		Button_3.Name = "ToggleButton_3_Off"
-		Button_3.Text = "Fast Orbs Mode [OFF]"
+		Button_3.Text = "Fast Auto Mode [OFF]"
 
 	elseif FastMode == true then
 		Fast_Mode = true
 		Button_3.BackgroundColor3 = Color3.new(0, 1, 0)
 		Button_3.Name = "ToggleButton_3_On"
-		Button_3.Text = "Fast Orbs Mode [ON]"
+		Button_3.Text = "Fast Auto Mode [ON]"
 
 	end
 

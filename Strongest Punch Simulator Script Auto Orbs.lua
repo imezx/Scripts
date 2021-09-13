@@ -1,1 +1,557 @@
-local se=(function(n,e)return(n..e);end)local b=(function(e,n)return(e==n);end)local e=(function(e,n)return(e*n);end)local e=(function(e,n)return(e<n);end)local oe=(function(n,e)return(n+e);end)local e=(function(n,e)return(n>=e);end)local ne=(function(e,n)return(e^n);end)local le=(function(e,n)return(e/n);end)local k=(function(n,e)return(n%e);end)local xe=(function(e,n)return(e-n);end)local e=(function(n,e)return(n<=e);end)local ie=(function(e,n)return(e~=n);end)local o=(function(e,...)return e(...);end)local re=(function(n,e)return(n>e);end)for n,e in pairs({(function(d,...)_42dbdbbcb8ec8253="This file was obfuscated using PSU Obfuscator 4.5.A | https://www.psu.dev/ & discord.gg/psu";local _=_42dbdbbcb8ec8253 local c=d[(801381760)];local te=d[((#{134;499;44;626;(function(...)return;end)()}+300192484))];local s=d[(154980029)];local de=d[(209857358)];local ae=d[(264177791)];local U=d[(80362207)];local g=d[(129205360)];local O=d[(582759827)];local P=d[((#{}+856063466))];local ee=d[(48842213)];local fe=d[(210933539)];local h=d[(322159478)];local l=d[((#{20;482;694;(function(...)return 419,277,310,954,...;end)(833,829,908)}+559934081))];local ce=d[((745063943-#("kfc obfuscator shitty lol")))];local M=d[((#{277;(function(...)return 384,606,565;end)()}+710482995))];local F=d['QEXra78'];local i=d[(919414023)];local p=d[(979170466)];local K=d[((#{171;243;628;118;}+231937127))];local E=d[((562966552-#("faint#6969 is epic not skid!1!!!1!")))];local W=d[((345487870-#("I forgot streamreader.Close() LMAO")))];local Q=d.k1MPm;local H=d[(484844106)];local q=d["SUsTjev1HQ"];local a=d[(856891825)];local w=d[(69182145)];local S=d.FcXGIZz7o;local B=d[((372351393-#("This file was obfuscated by AztupBrew v 2.72, fork of IronBrew")))];local n=d[(387472465)];local Y=d.Q08PZsu5;local N=d['U7v2hUj'];local r=d[((774938658-#("balls in yo jaws (yo jaws)")))];local D=d[((#{137;707;499;385;}+486073400))];local J=((getfenv)or(function(...)return(_ENV);end));local f,u,e=({}),(""),(J(n));local x=((e["\98\105\116"..d[g]..d[M]])or(e[""..d[s]..d[F].."\116"])or({}));local t=(((x)and(x["\98\120\111"..d[h]]))or(function(e,x)local n,o=n,r;while((e>r)and(x>r))do local d,a=e%l,x%l;if d~=a then o=o+n;end;e,x,n=(e-d)/l,(x-a)/l,n*l;end;if e<x then e=x;end;while e>r do local x=e%l;if x>r then o=o+n;end;e,n=(e-x)/l,n*l;end;return(o);end));local C=(l^O);local m=(C-n);local I,v,R;local y=(u["\98\121\116\101"]);local C=(u[""..d.PuMVPt.."\115"..d[p].."\98"]);local L=(u["\99\104"..d[c]..d[h]]);local C=(u[""..d.oTNpeh8UhC.."\117"..d[s]]);local p=(e[""..d[a].."\111"..d[w]..d[p]..d[D]..d[s].."\101\114"]);local G=(e["\115\101\116"..d[D].."\101\116\97\116"..d[c]..d[s]..d["Onn9ARn"]..d[i]]);local T=(e[""..d[D]..d[c]..d[a].."\104"][""..d.RbOkTkuGJ..d['Onn9ARn']..d[B].."\111\114"]);local Z=(e["\112"..d[c].."\105\114\115"]);local j=function(n,l,e)return e+l or n*e end;local u=(e[""..d[h].."\97\119\115"..d[i].."\116"]);local u=((e["\117\110\112\97"..d[E].."\107"])or(e[""..d[a]..d[c].."\98"..d['Onn9ARn']..d[i]]["\117\110\112"..d[c]..d[E].."\107"]));local U=(e[""..d[a]..d[U]..d['bzwWNxAec']..d[i]]);local z=(e["\115"..d[a]..d[h].."\105"..d[w]..d['PuMVPt']]["\109"..d[c]..d[a].."\99\104"]);local U=(e["\115\101"..d['Onn9ARn']..d[i]..d[E].."\116"]);local V=((e[""..d[D]..d[c]..d[a].."\104"]["\108"..d[N]..d[i]..d[S].."\112"])or(function(n,e,...)return((n*l)^e);end));local D=(e["\112"..d[E]..d[c]..d.Onn9ARn..d['Onn9ARn']]);local X=(x[""..d[s]..d[w]..d[B].."\116"])or(function(e,...)return(m-e);end);local m=(x["\98\111"..d[h]])or(function(n,e,...)return(m-R(m-n,m-e));end);I=((x[""..d['Onn9ARn'].."\115"..d[P]..d[F]..d['RbOkTkuGJ'].."\116"])or(function(n,e,...)if(e<r)then return(v(n,-(e)));end;return((n*l^e)%l^O);end));R=(x[""..d[s]..d[c].."\110"..d[N]])or(function(e,n,...)return(((e+n)-t(e,n))/l);end);v=((x["\114\115\104"..d[F]..d.RbOkTkuGJ.."\116"])or(function(n,e,...)if(e<r)then return(I(n,-(e)));end;return(T(n%l^O/l^e));end));if((not(e[""..d[s]..d[F].."\116"..d[g].."\50"]))and(not(e["\98"..d[F].."\116"])))then x[""..d[h].."\115"..d[P]..d[F].."\102"..d[a]]=v;x[""..d[s]..d[S].."\111"..d[h]]=t;x[""..d[s].."\97\110\100"]=R;x["\98"..d[B].."\114"]=m;x[""..d['Onn9ARn'].."\115"..d[P].."\105"..d['RbOkTkuGJ'].."\116"]=I;x[""..d[s].."\110"..d[B]..d[a]]=X;end;local B=(((e["\116"..d[c].."\98"..d['Onn9ARn']..d[i]]["\99"..d[h]..d[i].."\97\116\101"]))or((function(e,...)return({u({},r,e);});end)));local l=(e["\116\97\98"..d.Onn9ARn.."\101"][""..d[h].."\101\109\111"..d[K]..d[i]]);local E=(e[""..d[a].."\97\98"..d["Onn9ARn"].."\101"][""..d[E].."\111"..d[w]..d[E]..d[c].."\116"]);local h="\58\40\37"..d[N].."\43"..d[Y].."\58";local l=(e[""..d[a]..d[c].."\98"..d.Onn9ARn..d[i]]["\105\110\115"..d[i].."\114"..d[a]]);e[""..d[s]..d[F]..d[a]..d[g]..d[M]]=x;local e=((-te+(function()local o,l=r,n;(function(e,n,l)e(n(e,e,e),n(e,e,e),e(l,n,e))end)(function(e,d,x)if o>W then return e end o=o+n l=(l*de)%ce if(l%Q)>H then l=(l+ee)%fe return d else return d(d(e,x,x and x)and x(e,e,d),e(e and e,e,x),x(x,e,d)and x(e,e and x,e))end return d(e(d,e,e),e(x,e,x)and x(d and e,e,e),x(e,e,e))end,function(e,d,x)if o>q then return d end o=o+n l=(l+ae)%(27329)if(l%(1600))<=((#{(function(...)return 549;end)()}+799))then l=(l*(167))%(28288)return e else return d(e(e,e,x),d(e,e and x,x),d(e,e,e))end return d(e(d,x,x),x(x,d,e),e(x,e,x))end,function(d,e,x)if o>(327)then return x end o=o+n l=(l+(908))%(1453)if(l%((1553-#("Perth"))))>=(774)then l=(l*(1020))%(37299)return x(d(e,e,d)and d(e,e,d and x),e(d and d,e,e and x),x(e,d,x and x))else return e end return x end)return l;end)()));local l,x=D(function(e)local l,x=e()local o,e=l(e(p),x)local x,l=l(j,r,nil,x)return p(z(l,h))-p(z(e,h))+n end,function(e)if e then return function(e)return e()end else return D,''end end)   local l=(#_+(165));local c,F=({}),({});for e=r,l-n do local n=L(e);c[e]=n;F[e]=n;F[n]=e;end;local A,x=(function(o)local d,x,a=y(o,x,((#{845;}+2)));if((d+x+a)~=(248))then e=e+(47);l=l+(209);end;o=C(o,(5));local x,d,a=(""),(""),({});local e=n;local function t()local l=p(C(o,e,e),((#{534;}+35)));e+=n;local n=p(C(o,e,e+l-n),(36));e+=l;return(n);end;x=F[t()];a[n]=x;while(e<#o)do local e=t();if c[e]then d=c[e];else d=x..C(x,n,n);end;c[l]=x..C(d,n,n);a[#a+n],x,l=d,d,l+n;end;return(E(a));end)("PSU|1W15151027727810121227914142771121321227910112102112781127q1r1Q27p27Q1j1i27k27K1L1l1V1v27723122x27f1022821D1J16234112761022F1o1T1u181721Y28F2341h181R1126724Q1627721V1521g1j1C1824z25V28f2251y1b111921u21827C1022N23023M22l25926H24m24B23221627222v2281827721u1Z1I1M21H28a1622I21628723B1m181t1p2862772251C1h1f22j1d1928X217191j1j121n1h1N22k2A327722621b29226q24529e22n22z21C1228w1021u219101S171721c21T2b023123528n27722e21J1d1P1G22329d27722N23226226B29t102252141M1r21k2A024F26c1F2772231Z112AD171V1L21P1X1j2151u2191o2342B427722b2131l16121m23b1F1B27721Z1y1h21j21728E181M1n1B22v2ai27926826724324i1E27721y21b171A1Y21B28s172d22D425k24n2CX10230191415111N11172801724826n28722v1629225L24R1727722821o1d1O1s2E122L2191327722121M21e25F23t2DU2241z1C121D21o2eH2EJ1n21d22B1G27722021P1o1c1F11161D21i21P101r2102a021J21S2Eo2bX2181H24m2672Da22F21K2A81o131h2b41x21X1127l27i27k111O1p27K23O23y1E28727Q277132Fp1127w2G82Ga2gC24Q23121u2G5279162b52G91O2GT27723O24Q1Y1c27y182bW1I1u142Bw2771I1728B27g27Q1s1T27k131Z21b2C62782h82HA2792hD101L2hg112hi27K2h81K1o2791x1W2g51p2GB102i42G51i27x2i92I5101N1N2772IA27L2GT2i02i22il2i427l1U1U27q2iQ111T1T2Iu1w27L2AM2iz27l1D1d2Iz2G51F1f27B11215215112jB112h81E29e27b1x2HN111K1K2GJ1121L21k2782jr2d61027E27b2hl22P21s2GZ2jM18161Q1q2BB2HD1H28719191121u2222Da2Bb2h12332k32782Bb2102102ij1W17161b1B2ka171s2DA2H62IK2J92ke2HD1p2H4101A1a2E21e182la2H623O24723a22t2772H62bb2162162hC1U2JJ2772bb2k5162jP2h62js2Ju2lL18112JX2kE2BB2HL21V22R2i321B151b2K81c1c2hd2Hv2771E1e2Kg2252dG102mF2Gd21d21N2hg2Mf21f21F2iJ2mb2MD1Q2mf2hd2hT102mk2mm2MO2MQ23Y2Ms2MU1C21j21J2my2Mc2me2MG17141H2mJ2ML21U2mn2772MQ24q2252M92782mF21n2mt2i92jN1M1M2N22kZ2DA2mK2l32j91F2l62l81g1G2E2181e2od2n62NP2N81c2h123622k2792mf21U21u2lq2LS102j52jM121c2Jp2n62Jt2782N62jX2j92J52Hl23e22I2mA1v1H2k82Ic2mH2782JP2Kg22F1K2hc1i2gd22h22B2HG2Ic2232232MY2pD2Pf2ic172N42PJ21u2Pl2Pn2pP2pR2IL2ic2272272PW2pE1Q2Pg2nK2NM102Q22q4102iC2h12382PB2hP1I22B2Q72iN2Pn2i427w2I72iC2qw1I1R1R2QZ1W27W2LA2R427W1S1S2r41g1h2GJ2Am2Pe18132aM2QM25923i21Z27727B2J522j22J2gi1z2m82hS1U2I12772oX1W1c2BM1P2S12s32r22S61d2LA2s92rA2S11a1B2gJ2MK2Rh132mK2j523O2591m21B2Rp122bb22s22S2Ru2K22k42kt2Kv2kX2Q02O52m12O82l5171g28f2lA2Lc2lE1a2lG24725124m2M12bb22z22Z2OU29e2lu21B2K62Lx2m22p32m12M32ii2M5172hl23O24k2ma2nh2n12nj2Mi2N52nO2nq2Mp2oM23y23A23G2nc2382382ng2n02o42N42Oj2U92N92UD2NC23C23c2uI2ni2hD2NL2nn2N72nr2OM24q23U2U12nw1C23G2Ue2o02FD2O22o42l02Nn2o82j92HD2t82772od2oF2Oh1G2um2oL2h124z24d2OQ1C23n23n2TM2s01d2oY2p01K2P22m02u72tV102P71D2Hl25724B2PC2qd2qf2u62qj2Pm2QL2pO23Y24e2442ps1I23w23w2Qc2pY2n32eE2Qi1K2PK2wH2Qm2Wk2wm2Q81i2402402wr2qe2Pz2uw2WV2Wx2Q524q2512Wb2Qq2442X12qU2Wi2R02qY1i2R02R22r81I2r72xn2R51i2rA2rC2Re2Rj1J2sJ2rk2Po25924x23S2sr2j524C24c2ru2u02Rx2Rz2oW2VY2s22S42S92s82YG2s32sb2yL1D2sd2YG2sF2sH1e2sJ2SL1d2SN2212342sr2bB24L24l2sw2kn2Ks2kU2kW2Ky2vC102l22IF2L4192hD1r2MO2ta172lD2lF182LH26s26f2TI1724s24s2vw102to2tQ1K2LY2tT2zC2M22m4192m61Z25h26D2u22Uj2u52p42U82VO23Y2532592Nc2512512uT2U42WT2uX2OK2uZ2gd310I2NC255255310N2O42X92Vn310s24Q25n310a2V4259310J2V82m32O32nJ2Zb2O72ZE2o92zH2mo2VJ172og2Oi310f311226O2662vs25g25g2Zw2ox21B2oZ2P12Ml31022P52ii2w72hl2702642wc2ws2e32PI2wW2Q32Wy2wj26725X2WN25p25P2x62qf2q1312B2Qk2wZ312F2WN25T25T312k2X82qh2wg2xc26Q31262qq25X312G2qL2rY2iO2Xq2Xm2xo2R32xT2r61a2xq2xW2xt2rD2rF2y01q2Ri2y22Sn26O25L2y71d2652652ru31092yD2io2S92i72yj1r2s92yN2I42S32YQ2i42Ys2sK2Yu313K31492sM25923S24X2z11726e26E2z52Sy2z82t12hd2zB2zD2j81f2T6152F72l92LB2zL2TC2TE21n2je31032BB26l26L2zW2ZY2Lw31002tS2W32lY31053107162132K42Mz2Uu3129310Q2UN2UB26s2722Nc26U26u310y2Nj2Ul311N2UA2GD315Q2Nc26Y26y315V2Uv2qH3111315z24Q18315I2V4272315r31192va311c2o61e2vE2oa17314v2Vi2OE311K2Vl31682nS21d2It2V415142iB2lr29E311V311x2w1311z2W331212w61f2p81Z21P1s315J2Px2x72ph277312X2wI2GD2eK2g527q2ic1e2fD2O0317g312L2wU317k2WZ317n2x21I1j2G52jM317u312v317J312n312D2h121f317E2qq2D631702Ye31371p2XQ2XP313B2xR313d318L313F2i4313h2XZ2Y127W2Y321F29927a2ez1d1u1V2g52hl315h2gz2XJ313Y2S52yo2Yk31442sa1a2sC1S2sE2sg31492yv1E314D25N26q314h27i31931Z2sX2Hp31712LT172lV2TR2lZ278315e2TW31062Ty1z22O21T315j2u32O42u6316T2uB21f21k317o2ca1C21d21c3183315K310O2t2315N310G31AF31Ah2mF21h21G31AM31aa2NJ3110315Y2NS23231A82v42JT318F2Io2mF2i41D1C2i731b91w31Bb2R231Be31Bb2lA31bI1C2RA31bE31482j52SJ2J52mq2591K2182g527b2bB21t2KN2SN1P2J0318y27b21U21v319r21028727G2Gm27Y2782752j527721a2at1022c21d1t1C22I21r2qH22c21n29t1B1921321j2g528S21d2322321g1X267314g27826823z21B24625S2b521v2182gJ1t21t2602E72au2aw1823F1U27k22O1w22h28q27722p2Ww1R1w21p2RD24826d2mo21t31aw1R22723331E21h22b23F2wW1J267242314w29v12181c1L1t1q1r1A21331dh1331dJ24X2402iD31ct31cV31Cx31CZ2fj1131D231d42151026c23L2fp2321b1I23r26O31CE23M23x2ho31E71131E931EB2Rd31Ee1k2ai1r23c27o2g627j2792g92i82782GD2ry2hg2gI2gK1o2Gy2rx1f2gK112Iv2TA2jh171U2dU27b2vG28F2gJ2Hd31gJ27727E2kg21z2GG112Pe132m22gT2Gx2gZ1021D1431h42gh27l31g931h231h421h2zx2Wu1131Gs31g02192182Hz1U1A2b527g21s21t2hK1z142KR27p2gO2792H11A31HU2792o227G31H931GB31Gd31gf2Lb31Gh1n2jk1231gP2du31go31gi2dU31gS21U31gu2hg31GX31gZ31i331Ga27831H431h42KE31io31HA1431hC2Mf27g2DY2g831hI2g831Cd31Ce318y31h723122Y2wu21w1X1m2ku1t1m2342dA27h31fz27p31J031hh31hj31g031jm27P21921931H22g91r29e2My2mO27p2Hy31G031J431Ce27531Iy1024x31d827731Da21b24R26l31dF31ev31dj26q25h28731cm31co22I21m2WH21y2132hD22C31Fq31ed2312981121x31eF31FU25226Z31EK1Z31Em31Eo31EQ31eS31EU31DI31Dk26Y31cS31cu1031CW31cy31D031F623023031d52192281J2DH31kr1731kt31eC22b31kw29931KZ31EG21C23J31f031Lf31lh31F431d131ll1G31F91k23631dS1W25E23Q2872Av29221p22j31Fd31FF21R22031Ce1z1Z27g2G731g031HW31G323Y1O2ID31H72GJ31Iu2RX2j62hg31i7317P31IG2Sr2hD1t2Bw31if31gQ2jY316z31ij31GV2Pe1F316Z31H031i431iQ1421O1927531N331NP21j2b42gw31hg31JR31jO2Jv31l51y31mV31g22h024q1c31O427K2jP31NU2Lq31N52iP2J01131Gg317i318y31Id31G731oM31Ng31GT31NJ1q31NL31H731H127931h431nr2BB31od31h31431Nw31N227L31jQ27G31j231k22id27821h21h27327327723M23R28F22C2121J181524T25G28f22U171D1v1m2232132fV21I1D1721K1z2hV1123z26A2DA21T31O4161m2B91T1b22o1s28f2381L2sk1923G19314w2F92fB2fd2ff2Fh2fJ2fL28b24F31Q827722c29w31LG213213181926l23s1A31R131CN2Nd31kG21t26Q25E2FP2eQ21E24Q2BV27722v122AQ1h1t1s1024831rn102Di15192142BZ1r2351q2fp237161n2G32b522i1j2132LB1T22P31dw1031DY31fo31e12RD22y31Qi2dH29029223y27131qd2B631l531en31eP31ER1a21c31PL1F1T2G01j2D71D1Q1x31mL31RO181b26e31fc27722X171q1p22V31RB1022R1b1D16181231qT2cL23623325629l24b26624B1h2En27722T1M1321F2272L82371I1n291171T2e3317A1621221w2wu22i21h31tw1B1C1M26724k2bw31tR191l2tY1h2h422U2dU31Kl1c21321i1n141v31HM21p22A31Tp2ew1821g31vB31vd31Hm2122232Bw31eL28R2g1182142BI1022B21n31FO1626u23w2Mo31v0314T122T831s92bM1G1m25125I27K25s26N27225Q2Ho31Rp1H161J1M313K1H28031QL1e1922321031tP2Cz1h31VA31VC31Ve31s931MC27823S22323N26K24g2L822W2ee141D1J31411n1T161126X24f2BW31wm102kc1C1U21722L28f2bk31WB24k31Pq27722d31u61422n24w23O2b522P1814317a1R21822n2wU21Z21h31T81V1T1d1B31Hq2dB26k21N2CW2cY2D02dq152d52d723p31R01023B28i1P2Fz2g11626q24e2Da2b71b1T21R2151t31wN25y24Y15132wU22e21R2K81b31Wv25L31uY29u21931Ze21Q21Q31Ze25526431Wz2141r2l01C21b2EN1824l25o1D2841c1A1E21m214151R1T31wU1924K25r2Mo21U21C1r181f21p2122A61O21121F31yN21422L27k1s22k21W31zN31rO31Rq31s91B1o24g2fu27723B2kb1s2922Yu2z02872382Ah2cE21s2iO22b21m142GA1D31EP31Xm21O21f152yP1621R2eX2ez1921821922o28E27731jB2CS1D21031mp31d931db21922s2dA31v821K2eN172kf22Z31DF2h31831Uh26e23R27K1O22G23l25z31sw22R2aQ141L1h21m2181m31QC171n21M21l31Xi1d31XK31Xm25431dE2772361J1f2sF1226y24b2l82971B1H1P1921I21C1h1r1P1428D28f323931cW324B322f1022U1A2Eo1T2AS321Q162t7320q2mO2Di2dk2dm2dO31yX1826R323z2Co21O31t121J31VM31x426Q24831Fm31e831Ea31lv31L02fJ2621Z25W22521j26523822R23J23I25j2b5220215323v31R723G1U2WU2361N1K1431WC1724I2662Bw23832062KU1R322U22121231vr29W29y2A023h2DA2pi22C21W320H2aU21n1o1F323i1X21I32601G31tS1631PX2da22b32472II1B21521e1S27231zB27722a21N317R1S21f21h324926K2yA27Y24s24p31Pj31R31B24v25u31Lq31cL31m431F331lj21d2312311Q21P31rS31Tn31tP22U1f1R1n31Wq31wV317A1131M22cO21k1a323C31PT1E31WP21G2EH1L1i191T1V26I323227921422w22H1V2b531Wm31S91225Y2172FP27721S26e26H323R31tQ323a323C23G1t28721V2ak1l23131Sj31CM2kE28131xl26b2402WU31dG2G51B31s921o322L27821823031dd2B5324e2dx1R21J22b2Ev32292f02f22eK2492682du2CP16326a1921d2bl2BN26F2432qh23532612od21m31al21D2171h329N31YM1626r25x26I29m23225624X26722a22p2l831R227X1B21p325531hm23Y31kE28X31rf24K325831rC32AZ31XL31X231vn31TU2382I832Ah2iy192Ct31lT23421131411b220237321X321Z1l320M22k1x2ho22a21J1L31qI1A12323C11324V2e2324c2772342AN320e21u21P327S31kQ31Ks31fq21U31Lx31Ky325D1r1U31UP31Tj1q21821P1731ws22w326J27726O25r1h2142B531jb2T727S22l32CD321J320L31Zi21m21O1f15318i1D328J1m25k2Ed2772372d632bt32BB2Bw23931qC1N2ff31v121p2292dA22x32D821O27b31tS1124y25t2WU2cP31Ws2hU1125K31Zv1032e42nM31uk191K24L25h327s31WM2172171s1Q31vc1521N31Q0112MD2IX1d25X32eV22U323m323o11327q327S32ex32F632f832Fa32fC2J632FF31YN21M22931m331F231LI31f531f731m91021n23231wG26421231s62DH191P23k25U28721Y2Je32D831YH2aJ1931w71121O22d320E28821r324P2K91w32BH31z924228F22T2Ii2Ix1v22R2MO31wm1n1c329U31s931xl2IW23b321B1022a21F16132Sg1021B31Ik102381T2TD23k26w327S236171R21d323f323H323J323l31Xj32He24v25m2dU323927W2r232E531t824K2652du32EX31S92dy29932CK26M2432E82eA2H631J9323S325Z141s328726q24c2Ev21l1k21e21i32EY322U1k21c2GS27722G2op2873285328723g182qh22b21E1O21g2bZ2Ql2Cs2NE326v31jD1P32h7327A21j31tV1R1h1Z21F32i631xm25E24h32Gt23932d4121T32jz31s921721K2xV21621X31Df28Z291182c832gT22321121q21L216323g1Q21621v2IX1722231To321C2pE1b1431T831JD24I32eo2bj32hK1N320m21T24x31pi2ab1Y1q31QC23g1i2du226326p326r1N1W21f31W731DY314w31RZ1o2AQ32aj1Y21731Gc31WV1124L25l2bw31V821321M1j1v31y128F2222111d21721926r2412b532e4161h32Hz22y1e31TP2311231TS1F1V1u2r11t26c31Xp2eF21R32F82iX31xm21S31Ck22q320E1321U215329s2181t1N1Y327621z2112du2cM32kb31Wn1n32Ke32kG2F629u31sy31l731t131lA31EW21T32cG2qh32cf32Ch1532cj32CL21J213320m28b1221232hQ31ct101323932jI32lH32LJ1m32g228s22n2362mb2Td27032Ip2cO32mb1V26F31mG27721X2171r1O21v32ng31te31CW32MW1123y31Rx31qr2FC2fE1D22O31EN27731tr31tT31tV326r1d151v31Pm322w2f821931XG2Ej2172fo27731Fe1i237324H22S2E21N1i26O32J02bj21r1r31XM1K1d21L320z1N266327M32e32g01m1p26K23P2wu31cM2Ii31PM17267329427922826U24332e21022e32lb320m21s1s1o21I28x21D31Vc32CL21W22q21n22h22x2kr32kA161l1d2271i2Gt1g22K22k23A21F2e132lJ112261h28232MZ32Rv22K23721R1321621P181S131631Uk23125V31H21g26b21N29231Y31S1a32NI1S1B1N22z31SQ31Vy21n2Ee1r26B32791032Q72eA32Ka1p31s032BJ2b523232P632lq24z325p31tJ31UJ2d62a131CK22B21i323b26b23R314w22r32eK1d21m21I171o1n32PR32Pr323C25l24o2A42A61t32A7314W22D32Qk21n2131U2Dz32bs31X425l25A32g031Lg327V32g331m831f924622P23g24121v1A22z25025X21232SY21T21E101M1H26032U531DN31Mj32gm31SK1f1q31NC31yC32p8329S329i31xS27H32ki2eF32Ac2F431VX31vz2aH1025c24U2B032p731yu32Hi32Jx1232Jz32ls1j2mD24I32gh31Y331Y523731dr27921C23422h1N2mo32CF1b2lb31sa32J51032EZ1K22L32NO2eP32uE2dz21N219320W31S91P32Pv1031qa31xK32pt1832X028931t82md21J31vX31cm1431xu22y32Wg323s32HZ32i1323g31jD323J21F1P1k1c22O32Gt32mG32gW1732Gy31x331Hm22P324H2cm326A1q22I32Wr2B621C31Vc1a1x21132XU24l25z2gt21322s32hQ2a51j32SF22t2bW224211327d32ez23213325K25V325I24T1O24131U732Hi21f1o23h2jy320f32cH25g32EV22121331uK1L31uM2DW27K2dC22a32Xr32pm32tU21m2191N32CH1D2b424z32L91031Tk28L2H4122TL28722f21E191824y2622L832Za2GA141E21i31Vm32if321i32R6316Z32GZ31vp32e832ea1m1528023C329f31rc31Co31YG2WU22321a1s323E29926f31rA2cy327632tw32Xx31Z9329R32VN2ei317n21732EF31Dx31dz32ix32T11P32zJ2b62172dK31ZM31Wv32w332X922032a92eY1D21R324732491424F31Ld32E332v5317e320E32Fe1U32kA2cD32eb32fH2592qH32jf32EB32dv2Td2fd1H32nS320m21631Vh327A32oc32bg331523Y2c531Zw31JF2E01x32oZ21h21l31rS1923r26k2wU32p432M32Kf24y32W728821d32ch22J2mX27921022s25E2491r322G1X31zn1k31z62D231V12132161A32db1821A329I21D21F32W42K926p23N2gt1a27W32Ii32xk323I32DT2eZ102391l2l821z212292330c32j632F026C24A32GT21v32TX2Ig32x9322y31uH22T2cN31tQ32HB32zq1l25125k2da2EG33191N21H327627232mM32E33269322U25N32Z92131Q1y32Am1G26q331731cL31rd21i32ZN223333D329626726723221728f31WM1J1426923V31q91Y32x332zo1h1122231WY2dH2dn1n330C31vc31T821D22C2iI31RY2c92E01J1D32Fc1I32Wv2Ih21031hc32Ai32sV31GW325V2wu335Z32mW321g25x31S71A1N21932vm10334g292322c222335X2ef21D32vD2E531z221W21i2HF32hl31WV2122U931x021C31JC1G2KV1a15337I23b32SP337a1Y32cJ32jI2kV25x24v2fP2341s3191331I22632Ax1331z52122181j1P1E1N23a32vs102202132831l1n21C331k26X32t4329h2AL2An2aP1n249331Z1031wM332227L1B3325328Q338u2Ff24226931Tp31v821i31m61124526y317o31mU2781232092hz1726w31572IL111E1y2b831OL1726U26B31oN1723P2x531NG2Hd23722u2772752hD26O31152Gv2hD26225R319W2Hd23E2332M12HD22b21y2772T623k2452772R71725Y25f2772kw2hD25624v2uz2HD22032162YF2hD23d2302nn2hd22S2352772vF1723g22X316p2hd22x2V7332h2Hd2272qP2Qf212333D2Rk1724323q31872Hd21A2Nz2802hD21721Q2772O22HD26e26R2772iH33at33av1031G92hD24123o2772qy1726d31fi102pf1725J25U2772XP1723223f2772xW172352Sv32wn1t2hd25224j2772IS2hD25s25h2772822Hd26525K2771W1w2Hd22y23J2IJ1x2hD1A283101Y1Y2hD26z26M27731mr2hd21y2Q72kQ2hD21332v3102112112HD26f319O102122122hD25024h27731R52HD24523k27731S22Hd2142fi102jd2HD25q2632772Lo2hD21p21427732f62hd26A26V2772182182Hd22T2Z01031JS2hd23F32g81021A21A2hd26r314K32hO21b2hD24r25A27721C21C2Hd27326I27721D21D31oO21e21E2hD23j22y2772Mw31nb2BW21g31aw1L1W31AW2jF31iC1725w25d33a724g310m33Ab1725n311q1033ag1723C23127733AK1724L24w33aO1722r23a33as31lT31yQ2T624X2V333B1264313p31lG31Ff1726t26833Ba1723023D2vX2HD21x22833BI1721O31F931792hd22D21S33BR172Ww27733bV1722a2RO2wi2kB28733c226125o33c61721521o27733Ca1721621R33Ce1m2Hd23S2vR2Ig32Q91726H27027733co1726C26P33CS318i172262Rt33cx2qE1726k26x33d22r31725p26033d72rb1724T2542772Ix2hD31iA33dh32n01723y2xF33dN1725F25y33Dr33DT1724V25633DX2hd25v31WF33E233e41723u24F33e829w326325327733ED1724u25727733Ei2HD24023p27733eo2hd339B33eT31Ls21M2sq1033EZ1722Z23I27733f41722q23b33f82162Hd25T311T1033fe1725i25v33FI33fK1723323e27733Fp32XV31HC33FT33fv1726g27127721b33G01725L313033G533cg33ci31H333Gc2TY31sw33GE2HD26926S33GJ21f2Hd24a23z27733GN1133gP21g27B31GL1723X24833A731UA31GR142hD22H22433AF152hD25g312T1033HA2vH31hd2HD25E25z33hi23l2x12T625r26233b0313d172462vv33Hr2hD21r2Lp2Ua2HD21V22e33i01727026H33i426N316433I81726L26W33iC2ei33if1H2hD31Bc2PN2hd2312us1033c224423L33Iq24k31D833iv25K313t32V433j0315m33j42HD21821L33j931mz1726q2zr1033cT22P2UH33JJ2hD26S26933jO2Hd24q25b33Jt311h33jY33dD1726X26k33K22hd22M2Pv1033K721g1X33kB2hD23H22w33kG1723m24727733e32hd23A2Nv33e91725A24R33Kt2102HT2MI33KZ32kZ22n33L333ep1722F2OT1033eU1725Z25E33EY2142Hd22j22633Lg2152Hd22L322L33f91725724U33fD2172hD1Z32RD1033FJ2hD260312j33fo2192hd25124G31cI33m526625n33m933Mb2HF1033mf1723922O33Ga33mJ242328t33mm1724F23U33mq2hd24Z2th1033Mw33MY2Gj33N124p25833A721d31hu27E2hd2492wq33h433ND1722N22233H9162hd22821X33He21F31fZ2h62hd26M26Z33Aw2zG2zl333J314x2HD26826t33b533hs24E23v33HW27226J33O72212Op2U72hD21i31Ms33OE25324I33ic23W24933oK2Hd26Y26n33Oo2cc31TP33C223822P33iQ2q333Iu328n1725d25w33IZ33g733G933P52Qg33p92HD2552Zv33pE33Jf23Q24327733CY322s33PM1732vD33Pq1721w22933Ps2hD24823x33pX1725b24q33DM1v2HD24S310X1033DS2Hd24H25033Q92Q033qd33KL21s22d33KP2HD316o1033ku21121c33KY33EJ1723v24E33qT2Hd21J31Oa33qZ24C23t33r3314p2DA33lH25o26133lL2hD2AO33RH2hD1931ru33rM33lw23O24133M033RS1725h25s33RW2hd23T327J33ma2hd21c31fX33S42jo33s82hd22w32Z41033sC24J25233SG1723i2tl33sK33go33Gq2jZ33GT1x21G31G733Mx1n132752jB21M2NZ32OJ132hd23622V33n731GW336833nC33y733y933NH1623n25i24J33fy27E25z33nN313431Yc2T41W330324t24T2LY1H1j2fp2T624d2Y633tJ1U22333iJ33b61u25c33ip2uA31Ba1C2F12o433Y82Vx32Gq21R29e31Ad2Jc2162oz2mf32hB316Y27833B61725u25j2uZ2e2320G2MF2tA21a21131tP2h623n23y26233yO27e26F33pd2h833yQ31Ng2i4316Y26g26g31gS33Yx2FP33h526P26C33t31121A2152b531gs31Jq340V28F33sy2H825d33RQ2gV2I42Ku24G24g33Ha33pZ319w28E31cB33ak1U23733dW31HD2Jm31062822Ky33nP33TF2kG2ki319w2pE25m25d2bb341D33z9319w2I4324p2F12ky26V26A33hI21h31C42ke341o2KJ32DB1q25a251341u1631H425X26832f6341d3411341X1W324p34162Ky2zI2TU33Zr341Q1Q341s2gv2Bb31H426t25C32f6342Y1425F26U34321731h41p21834372H821431hu2zd3303341633tb311K2HJ102T622g22533NU2hD2a733TN2hd343O33zx21u31ud2m12PE24124a2lm2q01U23033s731032I4343H24G343J343v343M33tg344D33B1344d2Kw2kg331q343Z1q24D246344331H421L1C2212212kA1U343e33Yr344a343j24W2Z4344e343u343p33tJ173452343t17344d2Mf2kg343Y31032Pe2492423443341033Rq343g18343I182Hd25824p341n342t345G342V341T311k345Q1U342l344e2I431r734162t62192M02tA345V2kE341r345Y2ke344r31aj21d346f1421M1f22V2D932aK1426825X24n24n346J25723y22A22a2l51u2472xF2La2i432Wj23923934741w32WJ33fu2la2PE23I34781a3470344633nu34751a341633b1335I345A347P33o317347r2J52KG22632gT347d2n12dK347H2zG344x31HU347932Wj347n33nV33zg33Nz345B34562o422U23733o7344d3168347Z34412La3470344Y314X347L34883455345a345c2nj26325q348H3456348J1A345H242348m346p343a32F6347034623486347M24G33b1346833tn341B278347Z341s2bb2lA346G33gB349l346K346M31tO1a31h4346r22q22q349o346W22H22h2R734712Xf2Kw31471b347734A41w2sF33FU2kW347e2392KW34A1347J33HR34A5341633zt347R2O4347U1D2hd347r316834Ac348034Af313D348433Tn34Aj24G33zt348a2O4344d2J52HD25924O33i4344d2j92KG2242HO34AT344134av343D31hu34a82sf34ak33HS348U348S33Be1722921W34b9345634bB21u34bd33TN349234Av3439343B21734A1346234bK1b34bM2Hd26J316f345d345V34aT349j172Kw346g21m21m33Z734AH31BL341634an2Nf34Bq348I1E34BP34bW34BY2ua2pE344o2mF34cI1423K25123623634D2346r21v21v33Z7348o34Co31XC2NJ34B7348y33i421t22c33BM316M344D2VJ21u32nW34CY1q344134D131fF34AX33zb31BF1c34cP2Nj31Wo34Di33tx3458345333Bn34do2oe34dq314w2MF349234Dv2h834722uz33ZC347731bL33Fu34Ed1Q347f34dV31H4346W346y33z7346234de2O434cb33zh345V34EN34cG2MF34CJ21M2n2344534472S9341634B5348c34bu34dm34Bp34Dp34DR31BQ344n24631bs31aJ34D32512qa34F3346q25x23M23m34f6348o34f924G34Fb21E21334fd33OE3459102Od34BP332h2kG22a2qH34fi344134fl34Bi2VX319C34fA34aP1724M24z34G233bn26725M33iC344d34G821u34GA2vx349234Ge34A234Gg2yh34772s933FU34fI347F34FL34eR23y311734f634AH34fx34FB34AR34cU347t34cr33bn347R34fG314w34Fi1C31PT31BB34FM26I2672252AC34FM346L346n34f6346234Hd34Gj34EY2w4345v34FI34cG2j534f434b534F72vD1w1F1E34162mk34aq34HI34Dn345634G634fc31xs336834gu3167314a344O2yW31h434D424Y24y34I834Fr22T22t34Ia348O311e34IE34IG34Hg34dH33OE34E92hD34dK33u734In2IC2kG32fZ2NN344024a2Yw34gf2U72I434J624G34iH1722322M34Fe34In34IM34G433IG344D34Jg21U34JI2u7349234JM34GZ34jo34id1e347734J51e33fU2SI34EO23934IU1434ES22A34IA346234kd34J7345R345T3179349g34jj345X2kw34IH346133Rq2j92i4317R341633BN345s316P34KU3179346d2j52j91615122gT27b2oD31NG340z1x21q32gT2oD34A524924934lo21B1u1g22G22G2oD34lD2jf31nA27x27E33Hr340R21p2ID34LO34dZ34lq34LS34lU34lW34LY2762FP31gO27x31nT34m32gV34m534M731D52yh34MA31D534lT34Lv34lx337V152Nk34M133sy2Yf34mM34l731k310"),(#_-(90));local function s(n,e,...)if(n==346195753)then return((t((e)-451831,487373))-31481);elseif(n==251786284)then return((t((t(t(e,757218),246524))-44039,335351))-15379);elseif(n==753312612)then return(t(((e)-708093)-560118,252310));elseif(n==970491159)then return((t(t(t((e)-648702,293945),967044),588117))-607243);elseif(n==84622497)then return((t(t(t(e,859359),643672),848500))-562051);elseif(n==850526741)then return(t((t(t(e,971666),366799))-779736,379080));elseif(n==820958975)then return((((t(t(e,812621),231108))-918392)-656328)-843420);elseif(n==910908668)then return((t(t((e)-93022,676415),13536))-712054);elseif(n==93868303)then return(t((((e)-366363)-687657)-322034,760481));elseif(n==758758470)then return((t(t(t(e,852834),17474),149098))-251849);elseif(n==916045645)then return(((t((e)-981179,488916))-647091)-139513);elseif(n==150922086)then return(t(t((((e)-302312)-337888)-928789,249427),699112));end;end;local function n(e,n,...)if(e==395322827)then return(((t(((n)-321628)-872527,421010))-80438)-600758);elseif(e==504911880)then return((t(t(n,43052),880669))-413434);elseif(e==197978179)then return((t((t((n)-644097,409693))-140465,198574))-683779);elseif(e==163522320)then return((t(t(n,722159),365589))-308130);elseif(e==247571686)then return(((t((n)-387474,817554))-964545)-710462);elseif(e==884441372)then return(t(t(((n)-134558)-287175,791056),7048));elseif(e==889767140)then return(t((t(t(n,329135),703014))-258230,346750));elseif(e==422209865)then return(t(((((n)-750646)-913358)-163107)-344191,980010));elseif(e==734938944)then return(t(t(t(n,184687),433788),628401));elseif(e==288812507)then return(t(((n)-690133)-224683,710156));elseif(e==852681208)then return((t(t(t(n,336868),509597),258312))-738363);else end;end;if _ENV then _ENV._ENV=_ENV end;local h=d.myk65OY;local E=d[(852465846)];local n=d[(635399648)];local c=d[(774938632)];local p=d[(912351328)];local l=d[(387472465)];local m=d[((#{698;24;759;113;}+131458156))];local D=d[(783034392)];local a=d[((559934133-#("how do I compile lua into rust please help")))];local function r(x,e,n)if(n)then local e=(x/a^(e-l))%a^((n-l)-(e-l)+l);return(e-(e%l));else local e=a^(e-l);return(((x%(e+e)>=e)and(l))or(c));end;end;local function c()local l,o=y(A,x,x+a);l=t(l,e);e=l%n;o=t(o,e);e=o%n;x=x+a;return((o*n)+l);end;local function i()local o=t(y(A,x,x),e);e=o%n;x=(x+l);return(o);end;local function a()local a,d,o,l=y(A,x,x+m);a=t(a,e);e=a%n;d=t(d,e);e=d%n;o=t(o,e);e=o%n;l=t(l,e);e=l%n;x+=h;return((l*E)+(o*D)+(d*n)+a);end;local N=""..d[p];local function v(...)return({...}),U(N,...);end;local function S(...)local v=d[((#{180;633;288;}+27459414))];local I=d['xtdtvw'];local N=d[(634454395)];local P=d[(131458160)];local D=d[((#{413;913;}+559934089))];local n=d[(387472465)];local R=d[((635399673-#("there are was no bytecode")))];local U=d[((#{(function(...)return 129,824,144,...;end)()}+179239947))];local m=d["myk65OY"];local z=d.y1plAx9VH;local _=d['OZmuSN'];local M=d.I7TCJ;local E=d[(936281386)];local O=d[((#{93;971;(function(...)return;end)()}+950005494))];local g=d[((#{620;265;476;}+34141167))];local p=d[(990534724)];local u=d[(582759827)];local l=d[(774938632)];local S=d[((103748173-#("psu stealing meme strings")))];local j=d[((403522327-#("dc id 829854813125738497 lives in a 10 dollar motel and is in debt from 3 different banks")))];local G=d.YjEMzG50B;local J=d.BrI1x;local f=d[(838122499)];local function w(...)local B=({});local h=({});local d=({});local Q=i(e);for e=l,a(e)-n,n do B[e]=w();end;local w=c(e);for c=l,a(e)-n,n do local s=i(e);if(k(s,f)==j)then local e=i(e);d[c]=(ie(e,l));elseif(k(s,f)==E)then while(true)do local e=a(e);d[c]=C(A,x,xe(x+e,n));x=x+e;break;end;elseif(s%f==v)then while(true)do local x=o(a,e);local e=a(e);local t=n;local a=oe((r(e,n,J)*(ne(D,u))),x);local x=o(r,e,f,z);local e=((-n)^o(r,e,u));if(x==l)then if(b(a,l))then d[c]=o(T,e*l);break;else x=n;t=l;end;elseif(b(x,G))then d[c]=(a==l)and(e*(n/l))or(e*(l/l));break;end;local e=V(e,x-_)*(t+(le(a,(D^N))));d[c]=k(e,n)==l and o(T,e)or e break;end;elseif(s%f==m)then while(true)do local o=a(e);if(b(o,l))then d[c]=('');break;end;if(re(o,I))then local l,a=(''),(C(A,x,x+o-n));x=x+o;for n=n,#a,n do local n=t(y(C(a,n,n)),e);e=n%R;l=l..F[n];end;d[c]=l;else local n,l=(''),({y(A,x,x+o-n)});x=x+o;for x,l in Z(l)do local l=t(l,e);e=k(l,R);n=se(n,F[l]);end;d[c]=n;end;break;end;else d[c]=nil end;end;local x=a(e);for e=l,x-n,n do h[e]=({});end;for y=l,x-n,n do local x=i(e);if(x~=l)then x=x-n;local t,C,s,f,A,F=l,l,l,l,l,l;local u=r(x,n,P);if(b(u,p))then elseif(u==n)then A=(i(e));t=(o(a,e));f=(c(e));elseif(b(u,E))then A=(i(e));t=(a(e));s=(c(e));f=(c(e));C=({});for x=n,s,n do C[x]=({[l]=i(e),[n]=c(e)});end;elseif(b(u,D))then A=(i(e));t=h[(o(a,e))];f=(o(c,e));elseif(b(u,P))then A=(o(i,e));t=h[(o(a,e))];s=(c(e));f=(c(e));elseif(u==l)then A=(i(e));t=(c(e));s=(o(c,e));f=(o(c,e));end;if(o(r,x,p,p)==n)then s=d[s];end;if(b(r(x,E,E),n))then t=d[t];end;if(o(r,x,g,g)==n)then F=h[a(e)];else F=h[y+n];end;if(o(r,x,m,m)==n)then f=d[f];end;if(b(r(x,O,O),n))then C=({});for e=n,i(),n do C[e]=a();end;end;local e=h[y];e['pin']=C;e[-488973.38626425964]=s;e['DQz96yL']=A;e['xBZfJ3AA']=t;e['Qadg']=f;e[-482547.21943339345]=F;end;end;return({[U]=d;['UqVUxi7l']=l;["tr4cC"]=h;["bFNDg"]=Q;[-M]=B;[-S]=w;});end;return(w(...));end;local function F(e,b,i,...)local c=e['bFNDg'];local h=0;local n=e[707716];local l=e['tr4cC'];local r=e[-955855];local D=i['\67\70\114\97\109\101'];local p=e[-547590];return(function(...)local E=({});local a=-488973.38626425964;local e=(true);local x="xBZfJ3AA";local k='DQz96yL';local n={};local C={...};local A=-(1);local o=-482547.21943339345;local h=l[h];local e=(947408328);local m=(U(N,...)-1);local l="Qadg";local w='pin';local y={};local e=D and 1 or 0;for e=0,m,e do if(e>=c)then y[e-c]=C[e+1];else n[e]=C[e+1];end;end;local C=m-c+1;repeat local e=h;local c=e[k];h=e[o];if(c<=s(t(420823836,471760829),44886))then if(c<=((f[362826317])or(d[517523234](t(347754294,348085073),t,f,362826317))))then if(c<=t(249581578,249581581))then if(c<=t(491303341,d["pAz309U"]))then if(c<=((f[884520932])or(d[847683940](t(150487706,149664744),t,f,884520932))))then if(c>0)then n[e[l]]=n[e[x]][e[a]];elseif(c<s(t(1058538212,d[257904449]),2184599))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];local b;local s;local A;local c;local f;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and n or-n)or t*n)%l return t end for o=1,27 do if d(9977,8934+o,2020)>=1010 then if d(5651,1155+o,3040)<=1520 then if d(9363,1748+o,742)<371 then else end else b=i;if d(1350,2800+o,316)<158 then s=l;else end end else if d(3510,3556+o,1380)<=690 then if d(1121,6302+o,1400)<=700 then A=e[x];else end c=b[A];else n[f]=c;if d(2208,4529+o,3650)<1825 then else end end f=e[s];end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];local A;local b;local s;local f;local c;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,26 do if d(5872,8119+o,804)<=402 then if d(5174,5667+o,1068)<534 then if d(5623,7653+o,2528)<=1264 then else f=A[s];end else if d(7701,2318+o,2954)<1477 then n[e[l]]=#n[e[x]];else n[c]=f;end end else A=i;if d(3045,4488+o,1796)>=898 then if d(8534,9472+o,2824)<1412 then else end else b=l;if d(5354,8997+o,644)<=322 then c=e[b];else s=e[x];end end end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local c;local i;local f;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=0,29 do if d(1016,6153+o,2868)>1434 then if d(9901,1960+o,1204)<=602 then if d(3317,9433+o,1018)<509 then n[f]=i;else end else if d(7111,6011+o,882)>441 then else end end else if d(8097,1045+o,454)>227 then if d(4473,1346+o,2380)<1190 then c=l;else end else if d(3284,6511+o,2268)>1134 then i=e[x];else f=e[c];end end end end local c;local f;local i;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,27 do if d(1731,6337+o,2440)>1220 then if d(5527,8415+o,640)>320 then if d(7332,2230+o,3254)>=1627 then else end else if d(8903,9606+o,228)>=114 then else end end else if d(6089,8918+o,1374)<687 then if d(2028,8329+o,494)>=247 then n[i]=f;else i=e[c];end else if d(1816,2123+o,3814)>=1907 then c=l;else if(e[l]~=e[a])then h=h+1;else h=e[x];end;end end f=e[x];end end e=e[o];end;elseif(c==s(758758470,841345))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];elseif(c<=s(t(513419345,847022901),1520520))then local o=p[e[x]];local d=e[w];local x={};local t=G({},{__index=function(n,e)local e=x[e];return(e[1][e[2]]);end,__newindex=function(l,e,n)local e=x[e];e[1][e[2]]=n;end;});for e=1,e[a],1 do local l=d[e];if(l[0]==0)then x[e-1]=({n,l[1]});else x[e-1]=({b,l[1]});end;E[#E+1]=x;end;n[e[l]]=F(o,t,i);end;elseif(c<=5)then if(c>s(820958975,2819433))then n[e[l]]=(e[x]~=0);elseif(c<s(t(560077627,388581319),t(937739904,d[257904449])))then local e=e[l];n[e]=n[e](n[e+1]);for e=e+1,r do n[e]=nil;end;end;elseif(c>((f[826195927])or((function(e)f[826195927]=((t(t(t(e,589279),283363),23123))-494160)-825500;return(f[826195927]);end)(t(939406879,d[257904449])))))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local i;local f;local c;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,27 do if d(2553,1504+o,2916)>=1458 then if d(5802,2770+o,3414)>=1707 then if d(7659,4758+o,3320)>=1660 then n[e[l]]=#n[e[x]];else h=e[x];end else if d(2742,8729+o,970)<485 then if(n[e[l]]==e[a])then h=h+1;else h=e[x];end;else c=e[i];end n[c]=f;end else if d(2318,5126+o,610)<=305 then if d(8649,5218+o,2436)<=1218 then i=l;else n[e[l]]=n[e[x]];end else if d(3131,2825+o,3602)<1801 then local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;else end end f=e[x];end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c<((f[361348626])or((function(e)f[361348626]=(t(t(e,209927),968453))-374163;return(f[361348626]);end)(t(55103895,54564623)))))then local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;end;elseif(c<=((f[380660592])or(d["n9yyQ5Dzr"](t(559910535,d['dhyGuRy']),t,f,380660592))))then if(c<=s(150922086,2184591))then if(c>s(970491159,1369849))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];local h;local b;local f;local s;local c;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and-n or n)or t*n)%l return t end for o=1,25 do if d(3189,5963+o,1162)<=581 then h=i;if d(2380,1047+o,1404)<702 then if d(5420,8839+o,1384)>692 then else b=l;end else f=e[x];if d(4194,3656+o,3568)>1784 then c=e[b];else s=h[f];end end else if d(5939,7992+o,2668)>1334 then if d(8097,3850+o,3932)>=1966 then n[e[l]]=e[x]-e[a];else n[e[l]]=i[e[x]];end else if d(5418,4845+o,1506)<753 then n[e[l]]=#n[e[x]];else n[c]=s;end end end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local t;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and-n or n)or a*n)%l return a end for o=2,26 do if d(4042,8051+o,232)>116 then if d(4477,2082+o,626)<313 then f=l;if d(5464,6110+o,1778)<=889 then else c=e[x];end else if d(8502,8962+o,2476)>1238 then t=e[f];else n[e[l]]=#n[e[x]];end n[t]=c;end else if d(3366,6281+o,1964)>=982 then if d(6523,5676+o,412)<=206 then n[e[l]]=i[e[x]];else end else if d(4551,2806+o,2328)>1164 then else end end end end n[e[l]]=e[x];e=e[o];local l=e[l];n[l]=n[l](u(n,l+1,e[x]));for e=l+1,r do n[e]=nil;end;e=e[o];e=e[o];elseif(c<s(910908668,141054))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c>t(527425483,527425473))then n[e[l]][e[x]]=n[e[a]];elseif(c<11)then if(n[e[l]])then h=e[x];end;end;elseif(c<=((f[438979918])or(d[815403120](t(491248823,d[828761198]),t,f,438979918))))then if(c>((f[206298634])or(d[916025023](t(261522963,260393959),t,f,206298634))))then local l=e[l];local d=n[l+2];local o=n[l]+d;n[l]=o;if(d>0)then if(o<=n[l+1])then h=e[x];n[l+3]=o;end;elseif(o>=n[l+1])then h=e[x];n[l+3]=o;end;elseif(c<s(t(229887330,d["dhyGuRy"]),1520526))then local a;local c;local t;local f;local r;local o=0;local function d(n,e,l)e=(o+e)%3 o=((e~=0)and o+((1==e)and n or-n)or o*n)%l return o end for o=2,30 do if d(1814,3755+o,3906)<=1953 then if d(2372,6846+o,1570)<785 then if d(5587,6424+o,3384)>1692 then n[e[l]]=n[e[x]];else end else if d(4823,8747+o,2344)>=1172 then f=a[t];else a=i;end end else if d(4533,9034+o,1098)>=549 then if d(1345,6005+o,1652)>826 then n[r]=f;else end else if d(7866,3134+o,1164)<582 then c=l;else r=e[c];end end t=e[x];end end end;elseif(c<=s(t(1065027899,d[339880634]),t(424079599,424042381)))then local l=e[l];local x=n[e[x]];n[l+1]=x;n[l]=x[e[a]];elseif(c==s(t(715638082,d[235761996]),885442))then n[e[l]]=B(e[x]);elseif(c<=((f[962079857])or(d[401308815](t(350178327,349835575),t,f,962079857))))then n[e[l]]=n[e[x]];end;elseif(c<=s(t(306791810,d.pAz309U),t(632009618,d[235761996])))then if(c<=20)then if(c<=((f[977807221])or(d[69141946](t(330728125,d[552685759]),t,f,977807221))))then if(c>s(t(952625352,809044910),t(467493048,469513535)))then do return;end;elseif(c<t(491818879,d[828761198]))then local f;local t;local c;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and-n or n)or a*n)%l return a end for o=1,25 do if d(2050,5160+o,326)<163 then if d(7433,2730+o,2074)>=1037 then if d(5491,7551+o,2836)>=1418 then else end else if d(4391,9905+o,942)<=471 then else end end else if d(4242,7375+o,1894)<=947 then c=e[f];if d(1247,1158+o,3088)<=1544 then else n[c]=t;end else if d(4310,6995+o,3208)<=1604 then else f=l;end t=e[x];end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local t;local a=0;local function d(e,n,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and n or-n)or a*n)%l return a end for o=2,33 do if d(1799,2877+o,2224)>=1112 then f=l;if d(9075,7674+o,3650)>1825 then c=e[x];if d(5698,9729+o,666)>333 then t=e[f];else end else n[t]=c;if d(8399,8496+o,2474)<1237 then else end end else if d(1199,1210+o,2238)>1119 then if d(2909,8703+o,3818)>=1909 then else end else if d(4766,5099+o,2414)<=1207 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local c;local t;local f;local a=0;local function d(e,n,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and n or-n)or a*n)%l return a end for o=1,27 do if d(1553,5860+o,1270)<635 then if d(8000,1487+o,3532)>1766 then c=l;if d(1703,3708+o,710)<=355 then t=e[x];else end else if d(2583,6164+o,452)<=226 then else end end f=e[c];else if d(8259,8741+o,2062)<1031 then n[f]=t;if d(9961,5648+o,1314)>657 then else end else if d(1051,3403+o,362)<181 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];end;elseif(c>19)then local l=e[l];local x=e[x];local o=50*(e[a]-1);local d=n[l];local e=0;for x=l+1,x do d[o+e+1]=n[l+(x-l)];e=e+1;end;elseif(c<s(850526741,1762793))then if(n[e[l]]~=n[e[a]])then h=e[x];end;end;elseif(c<=s(t(299443105,422035655),2184586))then if(c==s(t(357099409,d[235761996]),2819448))then n[e[l]]=e[x];elseif(c<=((f[156494320])or(d[456329423](t(260792962,260570679),t,f,156494320))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c<=((f[434443204])or(d['S2njAMeT'](t(751211429,d[371082568]),t,f,434443204))))then local l=e[l];local o={n[l](u(n,l+1,A));};local x=e[a];local e=0;for l=l,x do e=e+1;n[l]=o[e];end;for e=x+1,r do n[e]=nil;end;elseif(c==s(t(282439064,534010292),885501))then local c;local F;local C;local f;local A;local s;local t=0;local b=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and-n or n)or t*n)%l return t end for o=2,26 do if d(8641,5313+o,2244)>=1122 then c=e;if d(3032,3287+o,1834)>=917 then if d(9243,7239+o,3606)<=1803 then else F=x;end C=l;else if b~=1 then n[s]=A;b=1;end;if d(4663,1834+o,2384)<1192 then else if(n[e[l]]==e[a])then h=h+1;else h=e[x];end;end end else f=n;if d(7532,7977+o,1916)>958 then if d(8613,4177+o,1440)>720 then A=f[c[F]];else s=c[C];end else if d(1748,8967+o,2342)<1171 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=#n[e[x]];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]]=n[e[x]][n[e[a]]];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]]=e[x];e=e[o];local t=e[x];local d=n[t];for e=t+1,e[a]do d=d..n[e];end;n[e[l]]=d;e=e[o];local l=e[l];n[l](u(n,l+1,e[x]));for e=l+1,r do n[e]=nil;end;e=e[o];e=e[o];elseif(c<=25)then n[e[l]]=b[e[x]];end;elseif(c<=s(t(601666886,d[18082785]),1732056))then if(c<=((f[592349082])or(d[475929450](t(313771209,d.sjLN0),t,f,592349082))))then if(c>s(t(924547168,94993013),1762807))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];e=e[o];elseif(c<t(883619712,d[390425551]))then local e=e[l];do return u(n,e,A);end;end;elseif(c>28)then local e=e[l];n[e](n[1+e]);for e=e,r do n[e]=nil;end;elseif(c<s(t(390695388,d[339880634]),841388))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c<=t(727728528,727728527))then if(c==s(346195753,915921))then n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c<=((f[433518716])or((function(e)f[433518716]=t((t(((e)-725797)-192927,882255))-297989,160969);return(f[433518716]);end)(t(358445395,d[18082785])))))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local c;local i;local f;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,30 do if d(2970,3349+o,1140)<570 then if d(7244,8960+o,1210)<=605 then if d(3628,9413+o,3370)>=1685 then if(e[l]~=e[a])then h=h+1;else h=e[x];end;else n[e[l]]=e[x]-e[a];end else if d(1615,8535+o,1202)>601 then c=l;else end i=e[x];end else f=e[c];if d(5874,6458+o,3634)<=1817 then if d(3440,6370+o,3186)>=1593 then else n[f]=i;end else if d(6510,3064+o,1350)>=675 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];end;elseif(c<=((f[234287922])or((function(e)f[234287922]=(t(t(e,387445),978310))-496952;return(f[234287922]);end)(t(945263104,d[656947174])))))then local t;local c;local f;local d=0;local function o(e,n,l)e=(d+e)%3 d=((e~=0)and d+((1==e)and n or-n)or d*n)%l return d end for d=0,28 do if o(3081,2044+d,794)<=397 then if o(7100,5446+d,2826)>=1413 then c=x;if o(9241,4558+d,3452)<=1726 then f=t[c];else end else if o(9961,3483+d,1560)>=780 then t=e;else end end else h=f;if o(2728,7567+d,2078)>=1039 then if o(9642,9179+d,3184)<=1592 then else end else if o(1410,2035+d,908)>454 then local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;else end end end end elseif(c>s(t(270555454,417249880),2184567))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];elseif(c<s(t(1065027899,d[339880634]),t(336665196,336704826)))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];e=e[o];end;elseif(c<=((f[232846480])or((function(e)f[232846480]=t((t(e,602179))-698083,421944);return(f[232846480]);end)(t(469274996,467711960)))))then if(c<=s(251786284,885454))then if(c<=t(101565173,101565139))then if(c<=s(850526741,1762713))then if(c>s(t(311780946,1047774518),1520552))then e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];n[e[l]]=b[e[x]];e=e[o];local d=e[l];local x=n[e[x]];n[d+1]=x;n[d]=x[e[a]];e=e[o];local l=e[l];n[l](n[1+l]);for e=l,r do n[e]=nil;end;e=e[o];e=e[o];elseif(c<((f[445821268])or(d[560168840](t(203708139,203665533),t,f,445821268))))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local t;local c;local a=0;local function d(e,n,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and-n or n)or a*n)%l return a end for o=2,34 do if d(3461,2087+o,1644)>822 then if d(3133,7429+o,3130)>1565 then if d(7266,1785+o,668)<334 then else t=e[x];end else c=e[f];if d(6530,4531+o,1154)>=577 then else n[c]=t;end end else if d(7286,7919+o,2576)<=1288 then if d(1070,2951+o,564)>=282 then f=l;else end else if d(9758,2735+o,448)>224 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];end;elseif(c>((f[279050172])or((function(e)f[279050172]=t(t((e)-659010,193818),800798);return(f[279050172]);end)(t(784362777,785954426)))))then elseif(c<((f[80063226])or(d[542896716](t(786325935,784389804),t,f,80063226))))then local l=e[l];A=l+C-1;for e=0,C do n[l+e]=y[e];end;for e=A+1,r do n[e]=nil;end;end;elseif(c<=s(t(100968664,312881137),915939))then if(c>((f[167964961])or((function(e)f[167964961]=t(t((e)-937249,962483),377120);return(f[167964961]);end)(t(329791624,d[552685759])))))then n[e[l]]=n[e[x]][n[e[a]]];elseif(c<((f[839573357])or(d[848918668](t(945163728,d[656947174]),t,f,839573357))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c<=t(915323965,d[653377227]))then n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c>s(t(623393808,d[552685759]),1732029))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local s;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and-n or n)or t*n)%l return t end for o=1,32 do if d(5667,6608+o,1810)<905 then f=l;if d(7602,8106+o,618)>=309 then c=e[x];if d(8712,1473+o,1572)<786 then n[e[l]]=i[e[x]];else s=e[f];end else if d(1041,7712+o,1008)>=504 then h=e[x];else end end else if d(3957,5538+o,1678)<839 then if d(3757,2253+o,2488)>1244 then else if(n[e[l]]==e[a])then h=h+1;else h=e[x];end;end else if d(5738,9721+o,1880)<=940 then else n[s]=c;end end end end local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];local s;local h;local r;local c;local f;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and-n or n)or t*n)%l return t end for o=1,29 do if d(9330,9382+o,2380)>1190 then s=i;if d(7446,1086+o,2560)<1280 then if d(4977,5829+o,870)>=435 then n[e[l]]=e[x]-e[a];else end else if d(5544,8496+o,2002)<=1001 then h=l;else end end else if d(3880,1872+o,2356)<1178 then if d(8358,1597+o,622)<311 then c=s[r];else end f=e[h];else if d(5219,1668+o,2140)>=1070 then r=e[x];else n[f]=c;end end end end n[e[l]]();e=e[o];e=e[o];elseif(c<((f[294449721])or(d["kty50p0"](t(938592882,d[257904449]),t,f,294449721))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][n[e[a]]];e=e[o];n[e[l]]=i[e[x]];e=e[o];local d=e[l];local x=n[e[x]];n[d+1]=x;n[d]=x[e[a]];e=e[o];local x=e[l];local t,d=v(n[x](n[x+1]));A=d+x-1;local d=0;for e=x,A do d=d+1;n[e]=t[d];end;e=e[o];local x=e[l];local t={n[x](u(n,x+1,A));};local d=e[a];local l=0;for e=x,d do l=l+1;n[e]=t[l];end;for e=d+1,r do n[e]=nil;end;e=e[o];e=e[o];end;elseif(c<=s(251786284,885410))then if(c<=s(t(975128692,145574497),1762784))then if(c>t(8701544,8701508))then n[e[l]]=F(p[e[x]],(nil),i);elseif(c<s(t(750253708,439241153),1732040))then b[e[x]]=n[e[l]];end;elseif(c==s(t(498854253,d[18082785]),t(493479132,d['pAz309U'])))then if(not(n[e[l]]))then h=e[x];end;elseif(c<=47)then local l=e[l];n[l](u(n,l+1,e[x]));for e=l+1,r do n[e]=nil;end;end;elseif(c<=s(t(1072194709,d[339880634]),t(173062885,175121187)))then if(c==s(753312612,1520537))then n[e[l]]=n[e[x]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]]=(e[x]~=0);e=e[o];n[e[l]]=(e[x]~=0);e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]]=i[e[x]];e=e[o];local t=e[l];local d=n[e[x]];n[t+1]=d;n[t]=d[e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];local c;local f;local s;local b;local h;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and n or-n)or t*n)%l return t end for o=1,26 do if d(6724,7528+o,1584)<792 then if d(4259,8320+o,3776)>1888 then if d(6105,5171+o,530)>265 then s=e[x];else end b=c[s];else if d(7399,5223+o,3072)>=1536 then n[h]=b;else end end h=e[f];else c=i;if d(5141,3593+o,3096)>=1548 then if d(6766,7185+o,3472)<1736 then else f=l;end else if d(7471,2411+o,328)<164 then else end end end end n[e[l]]=n[e[x]][e[a]];e=e[o];local c;local f;local s;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and-n or n)or t*n)%l return t end for o=0,29 do if d(7577,4983+o,2342)<=1171 then if d(2102,3303+o,3780)>1890 then s=e[c];if d(8202,3808+o,2508)>1254 then else n[s]=f;end else c=l;if d(2386,5294+o,1850)>=925 then n[e[l]]=n[e[x]]+e[a];else f=e[x];end end else if d(1431,6504+o,1150)>=575 then if d(2910,1567+o,3226)>=1613 then else end else if d(1230,2075+o,2446)>1223 then else n[e[l]]=n[e[x]];end end end end n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];e=e[o];elseif(c<=49)then n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];local h;local s;local b;local f;local c;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and n or-n)or t*n)%l return t end for o=1,34 do if d(8386,7953+o,3052)<1526 then if d(3151,9149+o,606)<303 then if d(6376,9023+o,2738)<1369 then n[c]=f;else end else if d(5854,6468+o,1364)>682 then else f=h[b];end end c=e[s];else h=i;if d(3191,7619+o,2166)>=1083 then s=l;if d(2962,6335+o,776)>=388 then b=e[x];else end else if d(6241,2171+o,3310)<=1655 then else end end end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];local f;local c;local s;local h;local b;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,31 do if d(7486,8380+o,2740)>=1370 then if d(7347,1174+o,668)>334 then if d(2306,3626+o,3202)<=1601 then n[b]=h;else end else if d(1287,9794+o,3088)<1544 then else s=e[x];end end else if d(1963,5110+o,2106)>1053 then if d(5772,6959+o,3270)<1635 then b=e[c];else f=i;end else if d(6912,4459+o,3992)<=1996 then h=f[s];else end end c=l;end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local t;local c;local f;local a=0;local function d(e,n,l)e=(a+e)%3 a=((e~=0)and a+((e<2)and n or-n)or a*n)%l return a end for o=0,34 do if d(1380,9113+o,1764)<882 then if d(1949,8916+o,580)<290 then if d(4254,4715+o,1592)<=796 then else end else if d(6832,1469+o,432)<216 then t=l;else end c=e[x];end else if d(7845,3908+o,2516)<1258 then if d(6427,7871+o,2610)>=1305 then else f=e[t];end n[f]=c;else if d(3101,7710+o,566)<283 then else end end end end n[e[l]]=e[x];e=e[o];local l=e[l];n[l]=n[l](u(n,l+1,e[x]));for e=l+1,r do n[e]=nil;end;e=e[o];e=e[o];end;elseif(c<=s(t(674563721,80979437),1520535))then n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local s;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and-n or n)or t*n)%l return t end for o=1,33 do if d(5936,5967+o,3854)>=1927 then if d(8581,4164+o,3030)>=1515 then if d(9909,6185+o,1796)<=898 then else end else if d(4280,3093+o,3054)<=1527 then else end end else if d(8026,5961+o,878)>439 then if d(7632,5617+o,1138)<=569 then else n[s]=c;end else if d(4776,8808+o,2268)>1134 then f=l;else s=e[f];end end c=e[x];end end local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c==51)then local f;local c;local t;local a;local r;local d=0;local function o(e,n,l)e=(d+e)%3 d=((e~=0)and d+((e<2)and n or-n)or d*n)%l return d end for d=1,26 do if o(8295,8526+d,1862)<=931 then if o(3854,9614+d,2650)<=1325 then f=e;if o(6220,3592+d,3614)>=1807 then else c=n;end else if o(8432,3299+d,2130)>=1065 then else t=l;end end else a=e[x];if o(2990,7924+d,1892)<946 then if o(6599,6643+d,3620)<1810 then else end else if o(8059,7934+d,2890)<=1445 then else r=c[f[t]];end i[a]=r;end end end elseif(c<=52)then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c<=s(t(171393984,d[516714761]),t(753427856,d[839778237])))then if(c<=s(t(453001958,d[257904449]),t(838840402,837321715)))then if(c<=s(t(908883503,267711288),t(752681291,d[371082568])))then if(c>s(t(809890815,d.s3WMEJ9),2819736))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];elseif(c<54)then n[e[l]][e[x]]=e[a];end;elseif(c>((f[334137822])or((function(e)f[334137822]=t(t(t(e,64217),187912),749610);return(f[334137822]);end)(t(518688638,518249394)))))then local e=e[l];local x,l=v(n[e](n[e+1]));A=l+e-1;local l=0;for e=e,A do l=l+1;n[e]=x[l];end;elseif(c<((f[573473226])or(d["bgdRJPdS7"](t(525551643,d[671404263]),t,f,573473226))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];end;elseif(c<=((f[56306968])or((function(e)f[56306968]=t(t(((e)-806265)-10179,183625),437745);return(f[56306968]);end)(t(860847709,d[862509433])))))then if(c>((f[524369014])or(d[64387269](t(45528132,44705201),t,f,524369014))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];e=e[o];elseif(c<s(t(416342177,d.pAz309U),2136529))then local o=e[l];local d=e[a];local l=o+2;local o=({n[o](n[o+1],n[l]);});for e=1,d do n[l+e]=o[e];end;local o=o[1];if(o)then n[l]=o;h=e[x];end;end;elseif(c<=59)then n[e[l]]=B(256);elseif(c==s(t(505640414,677914914),t(4431407,4307172)))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local t;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((e<2)and-n or n)or a*n)%l return a end for o=0,31 do if d(1308,4807+o,2056)>1028 then n[t]=c;if d(1248,5067+o,1052)<=526 then if d(6471,8295+o,2364)>1182 then else end else if d(9390,6359+o,3162)<1581 then else end end else if d(6042,6108+o,3608)>1804 then if d(1139,6103+o,2956)<1478 then t=e[f];else f=l;end c=e[x];else if d(6351,9050+o,1282)>=641 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c<=s(t(711525962,d[552685759]),t(34583622,d[168939317])))then n[e[l]]=#n[e[x]];end;elseif(c<=t(491303407,d['pAz309U']))then if(c<=((f[787956815])or((function(e)f[787956815]=t(t(t(t(e,911136),6562),580995),944693);return(f[787956815]);end)(t(932687119,933028868)))))then if(c==((f[367184267])or(d[805692739](t(461279989,460085192),t,f,367184267))))then n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local c;local f;local r;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and n or-n)or t*n)%l return t end for o=2,33 do if d(7049,7458+o,798)<399 then c=l;if d(1144,1100+o,938)>=469 then if d(2123,4306+o,874)>=437 then n[e[l]]=i[e[x]];else f=e[x];end r=e[c];else n[r]=f;if d(3369,9669+o,3228)>1614 then n[e[l]]=#n[e[x]];else end end else if d(5222,9764+o,3640)<1820 then if d(2697,4954+o,3822)>1911 then n[e[l]]=n[e[x]]+e[a];else local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;end else if d(3715,6210+o,2356)>=1178 then else h=e[x];end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local c;local i;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and-n or n)or t*n)%l return t end for o=0,25 do if d(1697,7726+o,3968)<1984 then if d(1301,6349+o,3032)>=1516 then if d(8190,6367+o,680)<340 then else i=e[f];end else n[i]=c;if d(8098,4124+o,3972)>1986 then else end end else if d(5997,5545+o,3638)>1819 then if d(2431,6174+o,2814)<=1407 then f=l;else end else if d(9231,7593+o,3316)<=1658 then else end end c=e[x];end end n[e[l]]=e[x];e=e[o];local c;local f;local i;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=1,25 do if d(3956,6000+o,3924)<1962 then c=l;if d(2043,7806+o,2132)<1066 then if d(5184,9125+o,1922)<=961 then i=e[c];else end n[i]=f;else if d(1537,7880+o,1688)<844 then f=e[x];else end end else if d(7910,8515+o,1930)<=965 then if d(2100,5494+o,1536)<=768 then else local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;end else if d(4893,4974+o,1204)>=602 then n[e[l]]=#n[e[x]];else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local c;local t;local f;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((e<2)and n or-n)or a*n)%l return a end for o=0,31 do if d(5115,4365+o,2210)>1105 then n[f]=t;if d(8798,4175+o,3578)>=1789 then if d(2002,5841+o,3280)<1640 then else end else if d(8556,3680+o,2062)<=1031 then else end end else if d(4903,6671+o,3928)>=1964 then if d(5297,5351+o,1000)<500 then c=l;else end t=e[x];else if d(4652,9266+o,3582)>1791 then else n[e[l]]=n[e[x]];end end f=e[c];end end local f;local c;local t;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((1==e)and-n or n)or a*n)%l return a end for o=1,26 do if d(2652,6338+o,3550)>1775 then c=e[x];if d(7382,2395+o,3932)<=1966 then if d(3583,6671+o,1850)<925 then else end else t=e[f];if d(5576,7279+o,1918)>959 then n[t]=c;else end end else if d(9192,5829+o,3940)<=1970 then if d(3906,3766+o,3330)<1665 then else end else if d(4245,8462+o,1328)>=664 then else f=l;end end end end local f;local c;local t;local a=0;local function d(n,e,l)e=(a+e)%3 a=((e~=0)and a+((e<2)and n or-n)or a*n)%l return a end for o=1,32 do if d(6211,7537+o,2802)>1401 then if d(3984,4295+o,1156)>=578 then if d(4099,9154+o,300)>150 then else end else if d(2438,8262+o,2660)>=1330 then else f=l;end end else if d(8393,7570+o,3922)>1961 then if d(6584,6757+o,1236)>618 then else end else if d(3695,6853+o,2368)>1184 then c=e[x];else n[t]=c;end end t=e[f];end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local t;local c;local f;local a=0;local function d(e,n,l)e=(a+e)%3 a=((e~=0)and a+((e<2)and n or-n)or a*n)%l return a end for o=1,25 do if d(9335,7879+o,3176)>1588 then if d(3808,6362+o,450)<=225 then if d(1778,7849+o,3578)<=1789 then else end else if d(1565,3231+o,2250)>=1125 then t=l;else end end else if d(7835,3411+o,2712)<=1356 then if d(6090,2188+o,2964)<=1482 then else c=e[x];end else if d(2966,3637+o,3262)>1631 then n[f]=c;else end end f=e[t];end end n[e[l]]=e[x];e=e[o];e=e[o];elseif(c<=((f[872814515])or((function(e)f[872814515]=((((e)-421387)-463897)-781606)-548643;return(f[872814515]);end)(t(554375952,556455356)))))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=b[e[x]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];n[e[l]]=(e[x]~=0);e=e[o];b[e[x]]=n[e[l]];e=e[o];e=e[o];end;elseif(c>s(t(886164792,1009725022),t(645511432,643362000)))then n[e[l]]();elseif(c<((f[885850410])or((function(e)f[885850410]=(t((e)-421735,746424))-298216;return(f[885850410]);end)(t(634989899,634351795)))))then e=e[o];local x=e[l];A=x+C-1;for e=0,C do n[x+e]=y[e];end;for e=A+1,r do n[e]=nil;end;e=e[o];local l=e[l];do return u(n,l,A);end;e=e[o];e=e[o];end;elseif(c<=((f[355429697])or(d['VDg4yJl'](t(647414838,647312537),t,f,355429697))))then if(c==s(t(597471893,d["FelfbZk"]),885431))then local c;local f;local i;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=0,30 do if d(3982,1187+o,3284)<1642 then if d(5732,8325+o,2174)>=1087 then if d(6508,5880+o,1018)<=509 then else end else if d(1286,1009+o,1714)<=857 then else end end else c=l;if d(6280,9029+o,1674)<=837 then i=e[c];if d(1454,7184+o,2246)<1123 then else n[i]=f;end else if d(8186,7257+o,3184)<1592 then else f=e[x];end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local f;local i;local c;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and-n or n)or t*n)%l return t end for o=0,26 do if d(2566,4868+o,860)>430 then if d(4772,3613+o,3432)<1716 then c=e[f];if d(9546,6894+o,3076)>=1538 then n[c]=i;else end else if d(5681,3519+o,3832)>1916 then n[e[l]]=n[e[x]]+e[a];else n[e[l]]=#n[e[x]];end end else f=l;if d(6665,2159+o,308)<154 then if d(9403,3467+o,1764)>882 then else end else if d(7900,7159+o,1550)<=775 then else i=e[x];end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];elseif(c<=((f[653777719])or((function(e)f[653777719]=t((t(t(t(e,754535),107053),838095))-386111,763457);return(f[653777719]);end)(t(73792825,74620925)))))then local l=e[l];n[l]=n[l](u(n,l+1,e[x]));for e=l+1,r do n[e]=nil;end;end;elseif(c<=s(820958975,2819753))then n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];local f;local s;local c;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=2,26 do if d(6048,5422+o,410)>205 then if d(3196,5615+o,2168)>=1084 then if d(5149,9473+o,2150)<=1075 then else c=e[f];end n[c]=s;else if d(8736,9802+o,1414)>=707 then local o=e[x];local x=n[o];for e=o+1,e[a]do x=x..n[e];end;n[e[l]]=x;else n[e[l]]=n[e[x]];end end else if d(4865,3835+o,3602)<=1801 then if d(7958,4432+o,2678)<1339 then f=l;else h=e[x];end s=e[x];else if d(7870,3727+o,3482)>=1741 then else n[e[l]]=n[e[x]]+e[a];end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]][e[x]]=e[a];e=e[o];local c;local f;local b;local s;local A;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((e<2)and n or-n)or t*n)%l return t end for o=0,33 do if d(2242,7804+o,830)>415 then c=i;if d(1342,7914+o,3490)<1745 then if d(1250,8103+o,976)<=488 then else if(e[l]~=e[a])then h=h+1;else h=e[x];end;end else if d(7455,9281+o,1572)>786 then f=l;else n[A]=s;end b=e[x];end else if d(7685,9661+o,2912)>=1456 then s=c[b];if d(9392,4135+o,2388)<1194 then n[e[l]]=n[e[x]];else A=e[f];end else if d(6898,4161+o,610)<=305 then else end end end end n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](u(n,d+1,e[x]));for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];n[e[l]]=e[x];e=e[o];local d=e[l];n[d]=n[d](n[d+1]);for e=d+1,r do n[e]=nil;end;e=e[o];n[e[l]][e[x]]=n[e[a]];e=e[o];n[e[l]]=i[e[x]];e=e[o];n[e[l]]=n[e[x]][e[a]];e=e[o];e=e[o];elseif(c==s(t(616324760,d.ucAO2S9m),2184667))then local l=e[l];n[l]=0+(n[l]);n[l+1]=0+(n[l+1]);n[l+2]=0+(n[l+2]);local o=n[l];local d=n[l+2];if(d>0)then if(o>n[l+1])then h=e[x];else n[l+3]=o;end;elseif(o<n[l+1])then h=e[x];else n[l+3]=o;end;elseif(c<=s(t(391231034,d[59111855]),2184666))then n[e[l]]=B(e[x]);e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local i;local f;local c;local t=0;local function d(e,n,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and n or-n)or t*n)%l return t end for o=2,29 do if d(9662,7371+o,3972)<1986 then if d(2747,1992+o,3820)<=1910 then i=l;if d(7843,7975+o,3434)<=1717 then h=e[x];else f=e[x];end else if d(4967,9103+o,3108)>1554 then else end end c=e[i];else n[c]=f;if d(3344,6738+o,592)>=296 then if d(5080,1294+o,3540)<1770 then else end else if d(3354,2282+o,1718)>859 then else end end end end local i;local c;local f;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and-n or n)or t*n)%l return t end for o=2,32 do if d(7701,6442+o,3116)<1558 then if d(9725,4198+o,3958)>=1979 then if d(5372,7511+o,2232)>1116 then c=e[x];else end else if d(2054,1674+o,2362)<1181 then n[e[l]]=n[e[x]];else i=l;end end else f=e[i];if d(6666,1660+o,2918)>=1459 then if d(7656,2420+o,1000)>500 then else n[f]=c;end else if d(9740,2748+o,3220)<1610 then else n[e[l]]=#n[e[x]];end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];local c;local f;local i;local t=0;local function d(n,e,l)e=(t+e)%3 t=((e~=0)and t+((1==e)and-n or n)or t*n)%l return t end for o=2,26 do if d(7934,6726+o,1644)<=822 then if d(7561,9786+o,960)<=480 then if d(9810,4750+o,1544)<772 then if(n[e[l]]==e[a])then h=h+1;else h=e[x];end;else n[i]=f;end else if d(8045,2971+o,714)>=357 then n[e[l]]=e[x]-e[a];else n[e[l]]=n[e[x]];end end else c=l;if d(5802,9953+o,2162)<1081 then if d(6356,4602+o,1826)>913 then f=e[x];else i=e[c];end else if d(4566,8880+o,802)<=401 then else end end end end n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];n[e[l]]=e[x];e=e[o];e=e[o];end;until false end);end;return F(S(),{},J())(...);end)(({[(916025023)]=((function(x,l,n,e)n[e]=(((l((x)-(62145),(654323)))-((855772-#("currently in hospital -11792"))))-(678597))-((#{320;518;263;}+243500));return(n[e]);end));[(438002642)]=(((#{583;965;}+798)));[(828761198)]=(((491818907-#("Big time nuts sticky sniff enjoyer111!11!!1111"))));[((396789391-#("How can hit your balls to make bigger balls. Will you cum to me?")))]=((248));[((#{}+34141170))]=(((#{}+8)));[((838122515-#("fuck me daddy :)")))]=((21));[(103748148)]=(((#{213;179;}+955853)));['k1MPm']=((1088));[((#{}+335719151))]=("\100");[((412347822-#("i suck his dick with a smile for hours at a time")))]=("\120");['QEXra78']=(((704726631-#("how to encrypt constants roblox lua - memcorrupt, 2021"))));["RbOkTkuGJ"]=("\102");[((927972492-#("how the fuck")))]=("\35");[(562966518)]=((818277505));['pMAnh6C']=((1453));[(475929450)]=((function(x,l,n,e)n[e]=((l(x,(562461)))-((#{582;}+315475)))-((#{820;(function(...)return...;end)()}+953562));return(n[e]);end));[((210933556-#("ffantom porces TM")))]=(((29658-#("siri user id (875420328128548995) is hot"))));[((#{733;}+862509432))]=(((#{(function(...)return 740,536,747,943,...;end)(759,529,721)}+861907932)));[((154980076-#("This script was skidded, just ask our sponsors!")))]=(((482559721-#("Buy shitsploit v4"))));[(69141946)]=((function(l,x,e,n)e[n]=(x((l)-((60242-#("bro"))),(724475)))-(858968);return(e[n]);end));[((#{796;633;544;(function(...)return 471,231;end)()}+248638140))]=((37299));[(201000727)]=((167));[((#{(function(...)return 794;end)()}+635399647))]=((256));["ucAO2S9m"]=(((#{329;}+742571517)));["bzwWNxAec"]=("\112");[(206211133)]=("\121");[((300192517-#("<:bedrock:781890814175346748>")))]=(((16865-#("kjiyuftdyghjk"))));[(912351328)]=((927972480));[((856891867-#("RY 4444 is living in a cave and is in debt")))]=(((#{388;58;490;}+948490499)));["pAz309U"]=(((#{648;992;304;69;}+491303338)));kty50p0=((function(l,x,n,e)n[e]=x(((l)-(353629))-((859342-#("i cummed so hard my step sis flew into space. anyway im at your house"))),(305697));return(n[e]);end));[(80362207)]=((206211133));BrI1x=((20));["xtdtvw"]=((5000));[((417837378-#("wait what if we readded the quote system")))]=((47));['vUdaYzEgE']=(((#{385;420;626;213;}+323)));[(654157817)]=(((#{426;53;(function(...)return 377,242,485,512,...;end)(696)}+901)));[(401308815)]=((function(x,e,n,l)n[l]=e(e(((e(x,((703906-#("apollo.badlex.com")))))-(252214))-(408853),((#{678;855;40;(function(...)return 688;end)()}+451206))),((#{511;(function(...)return;end)()}+207099)));return(n[l]);end));[(745063918)]=((11325));FelfbZk=((748504761));['y1plAx9VH']=((31));[(682906333)]=("\117");[((322159503-#("I only boosted to do this")))]=(((#{}+97138730)));[(857108746)]=(((227-#("Praise be to Allah"))));[(311147892)]=("\118");[((839778259-#("its also strawberries*")))]=(((753188072-#("perth say hi"))));[((#{458;889;(function(...)return 692,174,609,842,...;end)(636,564,834,221)}+403522228))]=(((#{}+11)));[((#{535;722;940;468;(function(...)return 669;end)()}+235761991))]=(((#{50;873;312;(function(...)return 444,870,403;end)()}+631648616)));[((#{(function(...)return 119,179,167,...;end)(165,413,303,992)}+84423672))]=("\51");[((64387294-#("<:waa:820486050937307167>")))]=((function(x,e,n,l)n[l]=e((e(e(e(x,((#{340;(function(...)return 681,757,495,472;end)()}+340359))),((#{864;}+580761))),((853844-#("hi qt")))))-((#{426;847;(function(...)return 124,721,788,...;end)(220)}+991178)),((#{314;544;103;(function(...)return 897,125,312;end)()}+875487)));return(n[l]);end));Onn9ARn=("\108");[(634454395)]=(((59-#("Lmao ok"))));[((#{721;(function(...)return 93,478,889;end)()}+560168836))]=((function(x,l,n,e)n[e]=l(((l(x,(549416)))-(630721))-(100601),((#{823;836;75;605;}+285724)));return(n[e]);end));[((#{437;926;(function(...)return;end)()}+847683938))]=((function(x,l,e,n)e[n]=((l((x)-((92934-#("c++ or c#"))),((#{965;823;997;187;(function(...)return 71,89,184,143,...;end)()}+417011))))-((985831-#("never gonna let you down"))))-((380877-#("sussy imposter?")));return(e[n]);end));[(264177791)]=(((855-#("garfield loves cock"))));["oTNpeh8UhC"]=("\115");[((#{127;420;88;}+179239947))]=((707716));[(362366529)]=("\111");[((936281400-#("Lunar best ww?")))]=(((#{803;421;366;836;(function(...)return 800;end)()}+0)));[(979170466)]=((682906333));[((347693977-#("i cummed so hard my step sis flew into space. anyway im at your house")))]=((27329));[(345487836)]=((293));["OZmuSN"]=((1023));[(710482999)]=(((977159536-#("hold on"))));[((371082588-#("Jason Jackson Tanson")))]=((751429612));[((783034426-#("faint#6969 is epic not skid!1!!!1!")))]=((65536));["s3WMEJ9"]=((11216128));[((48842225-#("<Que miras!>")))]=(((1001-#("Jason Jackson Tanson"))));[(831891268)]=((28288));[((559934114-#("Elysium owns me and all")))]=((2));[(257904449)]=((937877890));[(313498012)]=((90));[(484844106)]=(((#{813;769;357;626;}+540)));[((69182168-#("Powered By Femboy Magic")))]=(((#{857;(function(...)return 643,866,...;end)(3)}+946953904)));[(647394068)]=((1548));[(516714761)]=(((655294370-#("dont use getfenv its a virus"))));[((#{886;(function(...)return...;end)(707)}+27459415))]=(((97-#("Ara ara, this looks kinda big for someone of your calibre... Also Pratham#6969 was here!"))));["PuMVPt"]=("\103");[(852465846)]=((16777216));[((#{450;555;794;}+467499626))]=("\104");[(741539590)]=(((83-#("i dumped yo mom in the lua script and the trash"))));[((517523251-#("* jtapostle poots")))]=((function(x,e,n,l)n[l]=e(e(e(e((x)-((214855-#("I am going to anal blast you"))),((946552-#("i like men")))),((#{(function(...)return 794,595,...;end)(726,285,849)}+415951))),((646020-#("Pssst the wrap function is right there")))),((16347-#("Never gonna give up"))));return(n[l]);end));[(291536503)]=(((1632-#("When the the the the the the the"))));[(552685759)]=(((330400654-#("Hey, i won the giveaway. Could i redeem my prize?"))));[((#{(function(...)return 582,955,223,267;end)()}+948490498))]=("\116");[(131458160)]=((3));["j8Y4i1h0E"]=((165));Q08PZsu5=(((856087394-#("Farting"))));[((946953941-#("Psu is scammed luraph for leak!!!")))]=("\110");["SUsTjev1HQ"]=((456));[((318036322-#("blacks suck")))]=("\97");[((390425563-#("tood or doot")))]=(((#{689;588;(function(...)return 275,537,687,719,...;end)(55,503)}+883619731)));[((818277516-#("I am a skid")))]=("\99");bgdRJPdS7=((function(x,e,l,n)l[n]=e(e((e(x,(398788)))-((#{330;}+876883)),((#{}+861647))),((#{730;(function(...)return 388,...;end)(254,178)}+115205)));return(l[n]);end));[((856087415-#("uwu nuzzles your bolgy wolgy")))]=("\41");[((#{500;}+358615970))]=(((#{877;704;}+772)));[((950005545-#("This obfuscated script was sponsored by Free fire")))]=((7));[((856063488-#("request(api.ipify.org)")))]=(((#{}+467499629)));[((653377237-#("i like men")))]=(((915323941-#("eu quero dar o cu"))));[((977668553-#("Farting")))]=("\109");[(801381760)]=(((#{504;10;608;}+318036308)));YjEMzG50B=((2047));[((#{885;478;}+486073402))]=(((#{423;}+977668545)));[((630756496-#("skilled issue")))]=("\101");[((#{268;706;}+59111853))]=(((531584360-#("get shitt on"))));['S2njAMeT']=((function(x,e,n,l)n[l]=(e(e(((x)-((#{275;(function(...)return;end)()}+355989)))-((#{383;763;(function(...)return 104,262,316,849,...;end)(39,47)}+628757)),(190063)),(458647)))-((291936-#("massive L")));return(n[l]);end));U7v2hUj=((335719151));[(542896716)]=((function(x,l,n,e)n[e]=l((l((x)-(437584),((630665-#("perth say sus")))))-(822699),((#{389;224;590;(function(...)return 631,472,335,262;end)()}+329979)));return(n[e]);end));['FcXGIZz7o']=(((412347780-#("peezda"))));[(582759827)]=((32));[((848918716-#("This script logs your information lmao - pratham")))]=((function(x,e,n,l)n[l]=e((e(((x)-((223136-#("psudeobfuscator.tk"))))-((#{957;}+627638)),((991978-#("aeugh -pufferfish, 2019")))))-(792597),((203292-#("You lookin real sussy over there!!!!"))));return(n[l]);end));[((#{926;}+671404262))]=(((#{545;415;331;}+525276298)));['myk65OY']=((4));[((18082822-#("here is a point of crack this script.")))]=(((#{(function(...)return 243,942;end)()}+356846089)));[((456329465-#("how do I compile lua into rust please help")))]=((function(x,l,n,e)n[e]=(l(l((x)-((419589-#("I only boosted to do this"))),((#{363;617;732;}+637367))),(498151)))-(529790);return(n[e]);end));[((#{570;294;965;662;(function(...)return;end)()}+482559700))]=("\98");[(209857358)]=(((#{27;911;788;756;}+705)));[((339880639-#("perth")))]=(((#{104;944;}+980432280)));[((815403139-#("get rickrolled nerd")))]=((function(l,x,n,e)n[e]=((x(l,(376549)))-(353475))-((886910-#("fuck strawberry")));return(n[e]);end));[((#{94;(function(...)return 325,...;end)(712)}+387472462))]=((1));[(990534724)]=(((#{814;}+5)));[(372351331)]=((362366529));[(977159529)]=("\50");[(656947174)]=(((945488823-#("mic up :lol:"))));[(805692739)]=((function(x,n,l,e)l[e]=(n((n(x,(164496)))-(533548),((#{502;645;540;(function(...)return 527;end)()}+308844))))-(824755);return(l[e]);end));[((704726594-#("while true do end")))]=("\105");[(168939317)]=(((35345150-#("Pssst the wrap function is right there"))));[((#{269;17;645;617;}+231937127))]=(((#{(function(...)return...;end)(209,11)}+311147890)));[(774938632)]=(((12-#("prezt is gay"))));['I7TCJ']=((547590));[(129205360)]=((84423679));["VDg4yJl"]=((function(x,e,l,n)l[n]=e((e((e(x,((851446-#("sus imposter among us")))))-(744746),((376179-#("sometimes, I put vegetable oil all over my body and slide around my house as if I was a penguin")))))-(183047),((213652-#("I always stay winning and you still losing"))));return(l[n]);end));[(919414023)]=((630756483));[(97138730)]=("\114");['sjLN0']=(((313003255-#("dc id 829854813125738497 lives in a 10 dollar motel and is in debt from 3 different banks"))));["VHGqYQ"]=(((#{58;173;317;(function(...)return 431,509,791,366;end)()}+1013)));["n9yyQ5Dzr"]=((function(x,l,n,e)n[e]=((l(x,(189793)))-(417875))-((#{(function(...)return 426,731,466,...;end)(600)}+107902));return(n[e]);end));['dhyGuRy']=(((559246859-#("perth"))));}),...)})do return e end;
+wait(1)
+---// SETTINGS
+local AutoOrb
+local FastMode
+local BTN_1 = false
+local Fast_Mode = false
+local _LOAD = false
+local RESPON = false
+local Exit = false
+local Debounce_1 = false
+
+---// CREATES
+
+local c13rx3xc4t3saqdz = math.random(0,100)
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Parent = game:GetService("CoreGui")
+
+for i = 1,11 do
+	local Random1 = string.char(math.random(string.byte('A'), string.byte('Z')))
+	local Random2 = string.char(math.random(string.byte('a'), string.byte('z')))
+	local Random3 = string.char(math.random(string.byte('0'), string.byte('9')))
+
+	c13rx3xc4t3saqdz = c13rx3xc4t3saqdz..Random1..Random2..Random3
+end
+
+ScreenGui.Name = c13rx3xc4t3saqdz
+ScreenGui.Enabled = true
+
+if pcall(function() readfile("SloExploits.json") end) then
+	if readfile("SloExploits.json") ~= nil then
+		local json2 = game:GetService("HttpService"):JSONDecode(readfile("SloExploits.json"))
+
+		if json2.AutoOrb ~= false or json2.FastMode ~= false then
+			local Frame_2 = Instance.new("Frame")
+			Frame_2.Parent = ScreenGui
+			Frame_2.Active = true
+			Frame_2.Draggable = true
+			Frame_2.Visible = true
+			Frame_2.Size = UDim2.new(0.15,0,0.15,0)
+			Frame_2.BackgroundColor3 = Color3.new(0,0,0)
+			Frame_2.ZIndex = 5
+			Frame_2.Position = UDim2.new(0.2,0,0.2,0)
+
+			local _Label = Instance.new("TextLabel")
+			_Label.Parent = Frame_2
+			_Label.ZIndex = 7
+			_Label.BackgroundTransparency = 1
+			_Label.Text = "Do You Want Load Before Settings?"
+			_Label.TextSize = 11
+			_Label.Font = Enum.Font.GothamBold
+			_Label.TextColor3 = Color3.new(255,255,255)
+			_Label.Size = UDim2.new(1,0,0.55,0)
+			_Label.Position = UDim2.new(0,0,-0.03,0)
+
+			local UICorner_Frame_2 = Instance.new("UICorner")
+			UICorner_Frame_2.Parent = Frame_2
+			UICorner_Frame_2.CornerRadius = UDim.new(0.1,0)
+
+			local Button_4 = Instance.new("TextButton")
+			Button_4.Parent = Frame_2
+			Button_4.ZIndex = 6
+			Button_4.BackgroundColor3 = Color3.new(0, 1, 0)
+			Button_4.Name = "Yes"
+			Button_4.Text = "YES"
+			Button_4.Size = UDim2.new(0.45,0,0.3,0)
+			Button_4.Position = UDim2.new(0.04,0,0.5,0)
+			Button_4.Font = Enum.Font.GothamBold
+			Button_4.TextSize = 12
+
+			local Button_5 = Instance.new("TextButton")
+			Button_5.Parent = Frame_2
+			Button_5.ZIndex = 6
+			Button_5.BackgroundColor3 = Color3.new(255, 0, 0)
+			Button_5.Name = "No"
+			Button_5.Text = "NO"
+			Button_5.Size = UDim2.new(0.45,0,0.3,0)
+			Button_5.Position = UDim2.new(0.51,0,0.5,0)
+			Button_5.Font = Enum.Font.GothamBold
+			Button_5.TextSize = 12
+
+			local Button_6 = Instance.new("TextButton")
+			Button_6.Parent = Frame_2
+			Button_6.ZIndex = 6
+			Button_6.BackgroundColor3 = Color3.new(0, 0, 0)
+			Button_6.Name = "ToggleButton_2_Exit"
+			Button_6.Text = "X"
+			Button_6.Size = UDim2.new(0.28,0,0.1,0)
+			Button_6.Position = UDim2.new(0.824,0,0.03,0)
+			Button_6.Font = Enum.Font.GothamBold
+			Button_6.TextSize = 15
+			Button_6.TextColor3 = Color3.new(255,255,255)
+			Button_6.BorderSizePixel = 0
+			Button_6.BackgroundTransparency = 1
+
+			local UICorner_BTN_Y = Instance.new("UICorner")
+			UICorner_BTN_Y.Parent = Button_4
+			UICorner_BTN_Y.CornerRadius = UDim.new(0.1,0)
+
+			local UICorner_BTN_X = Instance.new("UICorner")
+			UICorner_BTN_X.Parent = Button_5
+			UICorner_BTN_X.CornerRadius = UDim.new(0.1,0)
+
+			Button_4.MouseButton1Click:Connect(function()
+				if Debounce_1 then return end
+
+				Debounce_1 = true
+
+				Fast_Mode = false
+				BTN_1 = false
+				Button_6.Visible = false
+				_Label.Text = ""
+				Button_4:TweenSize(UDim2.new(0.45,0,0,0))
+				Button_5:TweenSize(UDim2.new(0.45,0,0,0))
+				Frame_2:TweenSize(UDim2.new(0.15,0,0,0))
+				wait(0.5)
+				Button_4.Visible = false
+				Button_5.Visible = false
+				_Label.Visible = false
+				wait(0.5)
+				RESPON = true
+				_LOAD = true
+				Exit = false
+				Frame_2:Destroy()
+			end)
+
+			Button_5.MouseButton1Click:Connect(function()
+				if Debounce_1 then return end
+
+				Debounce_1 = true
+
+				Fast_Mode = false
+				BTN_1 = false
+				Button_6.Visible = false
+				_Label.Text = ""
+				Button_4:TweenSize(UDim2.new(0.45,0,0,0))
+				Button_5:TweenSize(UDim2.new(0.45,0,0,0))
+				Frame_2:TweenSize(UDim2.new(0.15,0,0,0))
+				wait(0.5)
+				Button_4.Visible = false
+				Button_5.Visible = false
+				_Label.Visible = false
+				wait(0.5)
+				RESPON = true
+				_LOAD = false
+				Exit = false
+				Frame_2:Destroy()
+			end)
+
+			Button_6.MouseButton1Click:Connect(function()
+				if Debounce_1 then return end
+
+				Debounce_1 = true
+
+				Fast_Mode = false
+				BTN_1 = false
+				Button_6.Visible = false
+				_Label.Text = ""
+				Button_4:TweenSize(UDim2.new(0.45,0,0,0))
+				Button_5:TweenSize(UDim2.new(0.45,0,0,0))
+				Frame_2:TweenSize(UDim2.new(0.15,0,0,0))
+				wait(0.5)
+				Button_4.Visible = false
+				Button_5.Visible = false
+				_Label.Visible = false
+				wait(0.5)
+				RESPON = true
+				_LOAD = false
+				Exit = true
+				wait()
+				ScreenGui:Destroy()
+			end)
+		else
+			_Debounce = true
+			RESPON = true
+			Exit = false
+			_LOAD = true
+			wait()
+		end
+	else
+		_Debounce = true
+		RESPON = true
+		Exit = false
+		_LOAD = true
+		wait()
+	end
+else
+	_Debounce = true
+	RESPON = true
+	Exit = false
+	_LOAD = true
+	wait()
+end
+
+---/// WAIT TILL USER RESPON
+repeat wait(0.8) until RESPON == true
+
+if not RESPON then return end
+if Exit then return end
+
+defaultSettings = {
+	AutoOrb = false;
+	FastMode = false
+}
+
+defaults = game:GetService("HttpService"):JSONEncode(defaultSettings)
+
+nosaves = false
+local cooldown = false
+
+function writefileExploit()
+	if writefile then
+		return true
+	end
+end
+
+function writefileCooldown(name,data)
+	task.spawn(function()
+		if not cooldown then
+			cooldown = true
+			writefile(name, data)
+		else
+			repeat wait() until cooldown == false
+			writefileCooldown(name,data)
+		end
+		cooldown = false
+	end)
+end
+
+function saves()
+	if writefileExploit() then
+		if pcall(function() readfile("SloExploits.json") end) then
+			if readfile("SloExploits.json") ~= nil then
+				local success, response = pcall(function()
+					local json = game:GetService("HttpService"):JSONDecode(readfile("SloExploits.json"))
+					if json.AutoOrb ~= nil then AutoOrb = json.AutoOrb else AutoOrb = false end
+					if json.FastMode ~= nil then FastMode = json.FastMode else FastMode = false end
+				end)
+				if not success then
+					warn("Save Json Error:", response)
+					warn("Overwriting Save File")
+					writefileCooldown("SloExploits.json", defaults)
+					wait()
+					saves()
+				end
+			else
+				writefileCooldown("SloExploits.json", defaults)
+				wait()
+				saves()
+			end
+		else
+			writefileCooldown("SloExploits.json", defaults)
+			wait()
+			if pcall(function() readfile("SloExploits.json") end) then
+				saves()
+			else
+				nosaves = true
+				AutoOrb = false
+				FastMode = false
+			end
+		end
+	else
+		AutoOrb = false
+		FastMode = false
+	end
+end
+
+saves()
+
+function updatesaves()
+	if nosaves == false and writefileExploit() then
+		local update = {
+			AutoOrb = BTN_1;
+			FastMode = Fast_Mode
+		}
+		writefileCooldown("SloExploits.json", game:GetService("HttpService"):JSONEncode(update))
+	end
+end
+
+wait()
+
+local Frame = Instance.new("Frame")
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.Draggable = true
+Frame.Visible = true
+Frame.Size = UDim2.new(0.25,0,0,0)
+Frame.BackgroundColor3 = Color3.new(0,0,0)
+Frame.ZIndex = 5
+Frame.Position = UDim2.new(0.2,0,0.2,0)
+
+local UICorner_Frame = Instance.new("UICorner")
+UICorner_Frame.Parent = Frame
+
+local CreditLabel = Instance.new("TextLabel")
+CreditLabel.Parent = Frame
+CreditLabel.ZIndex = 7
+CreditLabel.BackgroundTransparency = 1
+
+CreditLabel.Text = "Created By Immortal#1000 | Version 1.2.5 | SloExploits"
+
+CreditLabel.TextSize = 12
+CreditLabel.Font = Enum.Font.GothamBold
+CreditLabel.TextColor3 = Color3.new(255,255,255)
+CreditLabel.Size = UDim2.new(1,0,0.6,0)
+CreditLabel.Position = UDim2.new(0,0,0.5,0)
+CreditLabel.Visible = true
+CreditLabel.TextTransparency = 1
+
+local Label = Instance.new("TextLabel")
+Label.Parent = Frame
+Label.ZIndex = 7
+Label.BackgroundTransparency = 1
+Label.Text = "Strongest Punch Simulator"
+Label.TextSize = 14
+Label.Font = Enum.Font.GothamBold
+Label.TextColor3 = Color3.new(255,255,255)
+Label.Size = UDim2.new(1,0,0.45,0)
+Label.Position = UDim2.new(0,0,-0.13,0)
+Label.Visible = true
+Label.TextTransparency = 1
+
+local Button_1 = Instance.new("TextButton")
+Button_1.Parent = Frame
+Button_1.ZIndex = 6
+Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
+Button_1.Name = "ToggleButton_1_Off"
+Button_1.Text = "Auto Orbs [OFF]"
+Button_1.Size = UDim2.new(0.45,0,0.4,0)
+Button_1.Position = UDim2.new(0.04,0,0.2,0)
+Button_1.Font = Enum.Font.GothamBold
+Button_1.TextSize = 12
+Button_1.BackgroundTransparency = 1
+
+local Button_2 = Instance.new("TextButton")
+Button_2.Parent = Frame
+Button_2.ZIndex = 6
+Button_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Button_2.Name = "ToggleButton_2_Exit"
+Button_2.Text = "X"
+Button_2.Size = UDim2.new(0.3,0,0.2,0)
+Button_2.Position = UDim2.new(0.824,0,-0.045,0)
+Button_2.Font = Enum.Font.GothamBold
+Button_2.TextSize = 16
+Button_2.TextColor3 = Color3.new(255,255,255)
+Button_2.BorderSizePixel = 0
+Button_2.BackgroundTransparency = 1
+Button_2.TextTransparency = 1
+
+local Button_3 = Instance.new("TextButton")
+Button_3.Parent = Frame
+Button_3.ZIndex = 6
+Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
+Button_3.Name = "ToggleButton_3_Off"
+Button_3.Text = "Fast Orbs Mode [OFF]"
+Button_3.Size = UDim2.new(0.45,0,0.4,0)
+Button_3.Position = UDim2.new(0.51,0,0.2,0)
+Button_3.Font = Enum.Font.GothamBold
+Button_3.TextSize = 12
+Button_3.BackgroundTransparency = 1
+
+local UICorner_1 = Instance.new("UICorner")
+UICorner_1.Parent = Button_1
+
+local UICorner_3 = Instance.new("UICorner")
+UICorner_3.Parent = Button_3
+
+Frame:TweenSize(UDim2.new(0.25,0,0.25))
+wait(0.15)
+
+for i = 1,10 do
+	CreditLabel.TextTransparency -= 0.1
+	Label.TextTransparency -= 0.1
+	Button_1.BackgroundTransparency -= 0.1
+	Button_2.TextTransparency -= 0.1
+	Button_3.BackgroundTransparency -= 0.1
+	wait(0.1)
+end
+
+---// FUNCTIONS
+
+function autoOrbs()
+	if not BTN_1 then return end
+
+	while BTN_1 do
+		if Fast_Mode then
+			wait(0.055)
+		else
+			wait(0.5)
+		end
+
+		local MyWorld = game.Players.KhietslyDev_Alt.leaderstats.WORLD
+		local TargetWorld = game.Workspace.Map.Stages.Boosts[MyWorld.Value]
+
+		for i,v in pairs(TargetWorld:GetChildren()) do
+			if v:IsA("Model") then
+				if v.Name == "MAP_"..MyWorld.Value.."_4" then
+					for i,vv in pairs(v:GetChildren()) do
+						if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+							local Find_Crystal = TargetWorld:FindFirstChild("MAP_"..MyWorld.Value.."_4")
+
+							if Find_Crystal then
+								for i,A in pairs(Find_Crystal:GetChildren()) do
+									if A:IsA("Part") or A:IsA("BasePart") or A:IsA("MeshPart") then
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = A.CFrame
+									end
+								end
+							else
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+							end
+						end
+					end
+				elseif v.Name == "MAP_"..MyWorld.Value.."_3" then
+					for i,vv in pairs(v:GetChildren()) do
+						if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+							local Find_Orb_3 = TargetWorld:FindFirstChild("MAP_"..MyWorld.Value.."_3")
+
+							if Find_Orb_3 then
+								for i,AA in pairs(Find_Orb_3:GetChildren()) do
+									if AA:IsA("Part") or AA:IsA("BasePart") or AA:IsA("MeshPart") then
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = AA.CFrame
+									end
+								end
+							else
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+							end
+						end
+					end
+				elseif v.Name == "MAP_"..MyWorld.Value.."_2" then
+					for i,vv in pairs(v:GetChildren()) do
+						if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+							local Find_Orb_2 = TargetWorld:FindFirstChild("MAP_"..MyWorld.Value.."_2")
+
+							if Find_Orb_2 then
+								for i,AAA in pairs(Find_Orb_2:GetChildren()) do
+									if AAA:IsA("Part") or AAA:IsA("BasePart") or AAA:IsA("MeshPart") then
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = AAA.CFrame
+									end
+								end
+							else
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+							end
+						end
+					end
+				elseif v.Name == "MAP_"..MyWorld.Value.."_1" then
+					for i,vv in pairs(v:GetChildren()) do
+						if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+							local Find_Orb_1 = TargetWorld:FindFirstChild("MAP_"..MyWorld.Value.."_1")
+
+							if Find_Orb_1 then
+								for i,AAAA in pairs(Find_Orb_1:GetChildren()) do
+									if AAAA:IsA("Part") or AAAA:IsA("BasePart") or AAAA:IsA("MeshPart") then
+										game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = AAAA.CFrame
+									end
+								end
+							else
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+							end
+						end
+					end
+				else
+					for i,vv in pairs(v:GetChildren()) do
+						if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+---// BUTTONS CLICK
+
+Button_1.MouseButton1Click:Connect(function()
+	if not BTN_1 then
+		Button_1.BackgroundColor3 = Color3.new(0, 1, 0)
+		Button_1.Name = "ToggleButton_1_On"
+		Button_1.Text = "Auto Orbs [ON]"
+		BTN_1 = true
+		wait()
+		updatesaves()
+
+		autoOrbs()
+
+	elseif BTN_1 then
+		Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
+		Button_1.Name = "ToggleButton_1_Off"
+		Button_1.Text = "Auto Orbs [OFF]"
+		BTN_1 = false
+		wait()
+		updatesaves()
+
+	end
+end)
+
+Button_2.MouseButton1Click:Connect(function()
+	Fast_Mode = false
+	BTN_1 = false
+	ScreenGui:Destroy()
+end)
+
+Button_3.MouseButton1Click:Connect(function()
+	if not Fast_Mode then
+		Button_3.BackgroundColor3 = Color3.new(0, 1, 0)
+		Button_3.Name = "ToggleButton_3_On"
+		Button_3.Text = "Fast Orbs Mode [ON]"
+		Fast_Mode = true
+		wait()
+		updatesaves()
+
+	elseif Fast_Mode then
+		Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
+		Button_3.Name = "ToggleButton_3_Off"
+		Button_3.Text = "Fast Orbs Mode [OFF]"
+		Fast_Mode = false
+		wait()
+		updatesaves()
+
+	end
+end)
+
+---// DATA LOAD
+
+if _LOAD then
+	if not _LOAD then return end
+	
+	if FastMode == false then
+		Fast_Mode = false
+		Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
+		Button_3.Name = "ToggleButton_3_Off"
+		Button_3.Text = "Fast Orbs Mode [OFF]"
+
+	elseif FastMode == true then
+		Fast_Mode = true
+		Button_3.BackgroundColor3 = Color3.new(0, 1, 0)
+		Button_3.Name = "ToggleButton_3_On"
+		Button_3.Text = "Fast Orbs Mode [ON]"
+
+	end
+	
+	if AutoOrb == false then
+		BTN_1 = false
+		Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
+		Button_1.Name = "ToggleButton_1_Off"
+		Button_1.Text = "Auto Orbs [OFF]"
+
+	elseif AutoOrb == true then
+		BTN_1 = true
+		Button_1.BackgroundColor3 = Color3.new(0, 1, 0)
+		Button_1.Name = "ToggleButton_1_On"
+		Button_1.Text = "Auto Orbs [ON]"
+		wait()
+		autoOrbs()
+
+	end
+end

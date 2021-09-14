@@ -313,9 +313,9 @@ function autoOrb()
 			if not IsStopped then
 				if Orb then
 					if Fast_Mode then
-						wait(0.055)
+						wait(0.35)
 					else
-						wait(0.65)
+						wait(math.random(1,2))
 					end
 
 					local Players = game:GetService("Players")
@@ -400,11 +400,11 @@ function autoUp()
 			if not IsStopped then
 				if Auto_Pet then
 					if Fast_Mode then
-						wait(0.055)
+						wait(0.35)
 
 						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
 					else
-						wait(0.65)
+						wait(0.75)
 
 						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
 					end
@@ -425,7 +425,7 @@ function autoSkip()
 			if not IsStopped then
 				if Auto_Skip then
 					if Fast_Mode then
-						wait(0.1)
+						wait(0.35)
 
 						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"WarpPlrToOtherMap", "Next"})
 					else

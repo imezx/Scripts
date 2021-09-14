@@ -14,7 +14,20 @@ DO NOT SELL OR RE-MODIFY OR REMAKE THIS SCRIPT/CODE!
 
 ]]--
 
+---// Let Wait for 1 Second after loadstring make freeze game for no crashing
 wait(1)
+
+---/// WAIT TILL GAME IS LOADED
+if not game:IsLoaded() then
+	local notLoaded = Instance.new("Message", game:GetService("CoreGui"))
+	notLoaded.Text = "SloExploits is waiting for the game to load"
+
+	game.Loaded:Wait()
+	notLoaded:Destroy()
+end
+
+---// CREATES
+
 ---// SETTINGS
 local Orb = false
 local Fast_Mode = false
@@ -22,7 +35,29 @@ local Auto_Punch = false
 local Auto_Skip = false
 local Auto_Pet = false
 
----// CREATES
+---// Instance
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_Cl = Instance.new("Frame")
+local Label_Cl = Instance.new("TextLabel")
+local Label_Cl_1 = Instance.new("TextLabel")
+local Button_1_Cl = Instance.new("TextButton")
+local CreditLabel = Instance.new("TextLabel")
+local Label = Instance.new("TextLabel")
+local Button_1 = Instance.new("TextButton")
+local Button_2 = Instance.new("TextButton")
+local Button_3 = Instance.new("TextButton")
+local Button_4 = Instance.new("TextButton")
+local Button_5 = Instance.new("TextButton")
+local Button_6 = Instance.new("ImageButton")
+local Button_7 = Instance.new("TextButton")
+local UICorner_Frame = Instance.new("UICorner")
+local UICorner_Frame_Cl = Instance.new("UICorner")
+local UICorner_1 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 
 --> for Security for Anti-Ban
 local random1 = math.random(100, 999)
@@ -30,7 +65,6 @@ local random2 = math.random(1000, 10000)
 
 local c13rx3xc4t3 = math.random(random1, random2)
 
-local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game:GetService("CoreGui")
 
 for i = 1,14 do
@@ -46,18 +80,8 @@ end
 ScreenGui.Name = c13rx3xc4t3 -- INPUT THE RESULT SECURITY FOR SECURE THE SCRIPT FROM PROTECTOR GAME
 ScreenGui.Enabled = true
 
----/// WAIT TILL GAME IS LOADED
-if not game:IsLoaded() then
-	local notLoaded = Instance.new("Message", game:GetService("CoreGui"))
-	notLoaded.Text = "SloExploits is waiting for the game to load"
-	
-	game.Loaded:Wait()
-	notLoaded:Destroy()
-end
-
 wait()
 
-local Frame = Instance.new("Frame")
 Frame.Parent = ScreenGui
 Frame.Active = true
 Frame.Draggable = true
@@ -67,7 +91,6 @@ Frame.BackgroundColor3 = Color3.new(0,0,0)
 Frame.ZIndex = 5
 Frame.Position = UDim2.new(0.25,0,0.25,0)
 
-local Frame_Cl = Instance.new("Frame")
 Frame_Cl.Parent = ScreenGui
 Frame_Cl.Active = true
 Frame_Cl.Draggable = true
@@ -79,7 +102,6 @@ Frame_Cl.Position = UDim2.new(0.05,0,0.25,0)
 Frame_Cl.Name = "Changelogs"
 Frame_Cl.Visible = false
 
-local Label_Cl = Instance.new("TextLabel")
 Label_Cl.Parent = Frame_Cl
 Label_Cl.ZIndex = 7
 Label_Cl.BackgroundTransparency = 1
@@ -92,7 +114,6 @@ Label_Cl.Position = UDim2.new(0,0,-0.165,0)
 Label_Cl.Visible = true
 Label_Cl.TextTransparency = 1
 
-local Label_Cl_1 = Instance.new("TextLabel")
 Label_Cl_1.Parent = Frame_Cl
 Label_Cl_1.ZIndex = 7
 Label_Cl_1.BackgroundTransparency = 1
@@ -127,6 +148,7 @@ Improved Auto Orb System and Others
 Updated Version from 1.2.5 to 1.3.0
 
 ]]
+
 Label_Cl_1.TextSize = 8
 Label_Cl_1.Font = Enum.Font.GothamBold
 Label_Cl_1.TextColor3 = Color3.new(255,255,255)
@@ -135,7 +157,6 @@ Label_Cl_1.Position = UDim2.new(0,0,0.123,0)
 Label_Cl_1.Visible = true
 Label_Cl_1.TextTransparency = 1
 
-local Button_1_Cl = Instance.new("TextButton")
 Button_1_Cl.Parent = Frame_Cl
 Button_1_Cl.ZIndex = 6
 Button_1_Cl.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -150,13 +171,6 @@ Button_1_Cl.BorderSizePixel = 0
 Button_1_Cl.BackgroundTransparency = 1
 Button_1_Cl.TextTransparency = 1
 
-local UICorner_Frame = Instance.new("UICorner")
-UICorner_Frame.Parent = Frame
-
-local UICorner_Frame_Cl = Instance.new("UICorner")
-UICorner_Frame_Cl.Parent = Frame_Cl
-
-local CreditLabel = Instance.new("TextLabel")
 CreditLabel.Parent = Frame
 CreditLabel.ZIndex = 7
 CreditLabel.BackgroundTransparency = 1
@@ -171,7 +185,6 @@ CreditLabel.Position = UDim2.new(0,0,0.62,0)
 CreditLabel.Visible = true
 CreditLabel.TextTransparency = 1
 
-local Label = Instance.new("TextLabel")
 Label.Parent = Frame
 Label.ZIndex = 7
 Label.BackgroundTransparency = 1
@@ -184,7 +197,6 @@ Label.Position = UDim2.new(0,0,-0.165,0)
 Label.Visible = true
 Label.TextTransparency = 1
 
-local Button_1 = Instance.new("TextButton")
 Button_1.Parent = Frame
 Button_1.ZIndex = 6
 Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -196,7 +208,6 @@ Button_1.Font = Enum.Font.GothamBold
 Button_1.TextSize = 12
 Button_1.BackgroundTransparency = 1
 
-local Button_2 = Instance.new("TextButton")
 Button_2.Parent = Frame
 Button_2.ZIndex = 6
 Button_2.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -211,7 +222,6 @@ Button_2.BorderSizePixel = 0
 Button_2.BackgroundTransparency = 1
 Button_2.TextTransparency = 1
 
-local Button_3 = Instance.new("TextButton")
 Button_3.Parent = Frame
 Button_3.ZIndex = 6
 Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -223,7 +233,6 @@ Button_3.Font = Enum.Font.GothamBold
 Button_3.TextSize = 12
 Button_3.BackgroundTransparency = 1
 
-local Button_4 = Instance.new("TextButton")
 Button_4.Parent = Frame
 Button_4.ZIndex = 6
 Button_4.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -235,7 +244,6 @@ Button_4.Font = Enum.Font.GothamBold
 Button_4.TextSize = 12
 Button_4.BackgroundTransparency = 1
 
-local Button_5 = Instance.new("TextButton")
 Button_5.Parent = Frame
 Button_5.ZIndex = 6
 Button_5.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -247,7 +255,6 @@ Button_5.Font = Enum.Font.GothamBold
 Button_5.TextSize = 12
 Button_5.BackgroundTransparency = 1
 
-local Button_6 = Instance.new("ImageButton")
 Button_6.Parent = Frame
 Button_6.ZIndex = 6
 Button_6.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -261,7 +268,6 @@ Button_6.ImageRectOffset = Vector2.new(644, 364)
 Button_6.ImageRectSize = Vector2.new(36, 36)
 Button_6.ImageTransparency = 1
 
-local Button_7 = Instance.new("TextButton")
 Button_7.Parent = Frame
 Button_7.ZIndex = 6
 Button_7.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -273,19 +279,12 @@ Button_7.Font = Enum.Font.GothamBold
 Button_7.TextSize = 11
 Button_7.BackgroundTransparency = 1
 
-local UICorner_1 = Instance.new("UICorner")
+UICorner_Frame.Parent = Frame
+UICorner_Frame_Cl.Parent = Frame_Cl
 UICorner_1.Parent = Button_1
-
-local UICorner_3 = Instance.new("UICorner")
 UICorner_3.Parent = Button_3
-
-local UICorner_4 = Instance.new("UICorner")
 UICorner_4.Parent = Button_4
-
-local UICorner_5 = Instance.new("UICorner")
 UICorner_5.Parent = Button_5
-
-local UICorner_7 = Instance.new("UICorner")
 UICorner_7.Parent = Button_7
 
 

@@ -37,11 +37,8 @@ for i = 1,14 do
 	local Random1 = string.char(math.random(string.byte('A'), string.byte('Z')))
 	local Random2 = string.char(math.random(string.byte('a'), string.byte('z')))
 	local Random3 = string.char(math.random(string.byte('0'), string.byte('9')))
-	
-	local random_ = math.random(Random1, random2)
-	local random_2 = math.random(random_, Random3)
 
-	c13rx3xc4t3 = c13rx3xc4t3..random_2
+	c13rx3xc4t3 = c13rx3xc4t3..Random1..Random3..Random2
 end
 
 --// END OF CREATED SECURITY

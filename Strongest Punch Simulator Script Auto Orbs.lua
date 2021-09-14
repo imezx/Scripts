@@ -306,6 +306,142 @@ for i = 1,10 do
 	wait(0.1)
 end
 
+--// Function
+function autoOrb()
+	if Orb then
+		while Orb do
+			if not IsStopped then
+				if Orb then
+					if Fast_Mode then
+						wait(0.055)
+					else
+						wait(0.65)
+					end
+
+					local Players = game:GetService("Players")
+					local Workspaces = game:GetService("Workspace")
+					local MyWorld = Players.LocalPlayer.leaderstats.WORLD
+					local TargetWorld = Workspaces.Map.Stages.Boosts[MyWorld.Value]
+
+					local Collectable = nil
+					local Highest = 0
+
+					for _, A_1 in next, TargetWorld:GetChildren() do
+						if not Orb then return end
+
+						local A_2 = A_1.Name
+						local Number = tonumber(A_2:sub(#A_2, #A_2))
+
+						if Number > Highest then
+							Highest = Number
+							Collectable = A_1
+						end
+					end
+
+					if Collectable ~= nil then
+						pcall(function()
+							if not Orb then return end
+
+							Players.LocalPlayer.Character.PrimaryPart.CFrame = Collectable.PrimaryPart.CFrame
+
+							firetouchinterest(Players.LocalPlayer.Character.PrimaryPart, Collectable.PrimaryPart, 0)
+							firetouchinterest(Players.LocalPlayer.Character.PrimaryPart, Collectable.PrimaryPart, 1)
+						end)
+					else
+						for i,v in pairs(TargetWorld:GetChildren()) do
+							if v:IsA("Model") then
+								for i,vv in pairs(v:GetChildren()) do
+									if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
+										Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
+									end
+								end
+							end
+						end
+					end
+				else
+					wait(1)
+				end
+			else
+				wait(1)
+			end
+		end
+	end
+end
+
+function autoPunch()
+	if Auto_Punch then
+		while Auto_Punch do
+			if not IsStopped then
+
+				if Auto_Punch then
+					if Fast_Mode then
+						wait(0.35)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"Activate_Punch"})
+					else
+						wait(0.75)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"Activate_Punch"})
+					end
+
+				else
+					wait(1)
+				end
+			else
+				wait(1)
+			end
+		end
+	end
+end
+
+function autoUp()
+	if Auto_Pet then
+		while Auto_Pet do
+			if not IsStopped then
+				if Auto_Pet then
+					if Fast_Mode then
+						wait(0.055)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
+					else
+						wait(0.65)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
+					end
+
+				else
+					wait(1)
+				end
+			else
+				wait(1)
+			end
+		end
+	end
+end
+
+function autoSkip()
+	if Auto_Skip then
+		while Auto_Skip do
+			if not IsStopped then
+				if Auto_Skip then
+					if Fast_Mode then
+						wait(0.1)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"WarpPlrToOtherMap", "Next"})
+					else
+						wait(1)
+
+						game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"WarpPlrToOtherMap", "Next"})
+					end
+				else
+					wait(1)
+				end
+			else
+				wait(1)
+			end
+		end
+	end
+end
 ---// BUTTONS CLICK
 
 Button_1.MouseButton1Click:Connect(function()
@@ -315,7 +451,9 @@ Button_1.MouseButton1Click:Connect(function()
 		Button_1.Text = "Auto Orbs [ON]"
 		Orb = true
 		wait()
-
+		
+		autoOrb()
+		
 	elseif Orb then
 		Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
 		Button_1.Name = "ToggleButton_1_Off"
@@ -327,12 +465,12 @@ Button_1.MouseButton1Click:Connect(function()
 end)
 
 Button_2.MouseButton1Click:Connect(function()
+	IsStopped = true
 	Fast_Mode = false
 	Orb = false
 	Auto_Punch = false
 	Auto_Skip = false
 	Auto_Pet = false
-	IsStopped = true
 	wait()
 	ScreenGui:Destroy()
 end)
@@ -362,6 +500,8 @@ Button_4.MouseButton1Click:Connect(function()
 		Button_4.Text = "Auto Punch [ON]"
 		Auto_Punch = true
 		wait()
+		
+		autoPunch()
 
 	elseif Auto_Punch then
 		Button_4.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -380,6 +520,8 @@ Button_5.MouseButton1Click:Connect(function()
 		Button_5.Text = "Auto Skip [ON]"
 		Auto_Skip = true
 		wait()
+		
+		autoSkip()
 
 	elseif Auto_Skip then
 		Button_5.BackgroundColor3 = Color3.new(255, 0, 0)
@@ -402,7 +544,7 @@ Button_6.MouseButton1Click:Connect(function()
 		Frame_Cl.Visible = true
 		Frame_Cl:TweenSize(UDim2.new(0.15,0,0.4,0))
 		Label_Cl:TweenSize(UDim2.new(1,0,0.45,0))
-		
+
 		wait(0.15)
 
 		for i = 1,10 do
@@ -460,7 +602,9 @@ Button_7.MouseButton1Click:Connect(function()
 		Button_7.Text = "Auto Upgrade Pet [ON]"
 		Auto_Pet = true
 		wait()
-
+		
+		autoUp()
+		
 	elseif Auto_Pet then
 		Button_7.BackgroundColor3 = Color3.new(255, 0, 0)
 		Button_7.Name = "ToggleButton_7_Off"
@@ -491,7 +635,7 @@ end)
 
 --// SPAWN FUNCTION
 game:GetService("RunService").Stepped:Connect(function()
-	
+
 	spawn(function()
 		if not IsStopped then
 			if Anti_Afk == true then
@@ -501,147 +645,5 @@ game:GetService("RunService").Stepped:Connect(function()
 				bb:ClickButton2(Vector2.new())
 			end
 		end
-	end)
-	
-	spawn(function()
-		
-		if not IsStopped then
-			if Orb then 
-				while Orb do
-
-					if Orb then
-						if Fast_Mode then
-							wait(0.055)
-						else
-							wait(0.65)
-						end
-
-						local Players = game:GetService("Players")
-						local Workspaces = game:GetService("Workspace")
-						local MyWorld = Players.LocalPlayer.leaderstats.WORLD
-						local TargetWorld = Workspaces.Map.Stages.Boosts[MyWorld.Value]
-
-						local Collectable = nil
-						local Highest = 0
-
-						for _, A_1 in next, TargetWorld:GetChildren() do
-							if not Orb then return end
-
-							local A_2 = A_1.Name
-							local Number = tonumber(A_2:sub(#A_2, #A_2))
-
-							if Number > Highest then
-								Highest = Number
-								Collectable = A_1
-							end
-						end
-
-						if Collectable ~= nil then
-							pcall(function()
-								if not Orb then return end
-
-								Players.LocalPlayer.Character.PrimaryPart.CFrame = Collectable.PrimaryPart.CFrame
-
-								firetouchinterest(Players.LocalPlayer.Character.PrimaryPart, Collectable.PrimaryPart, 0)
-								firetouchinterest(Players.LocalPlayer.Character.PrimaryPart, Collectable.PrimaryPart, 1)
-							end)
-						else
-							for i,v in pairs(TargetWorld:GetChildren()) do
-								if v:IsA("Model") then
-									for i,vv in pairs(v:GetChildren()) do
-										if vv:IsA("Part") or vv:IsA("BasePart") or vv:IsA("MeshPart") then
-											Players.LocalPlayer.Character.HumanoidRootPart.CFrame = vv.CFrame
-										end
-									end
-								end
-							end
-						end
-					else
-						wait(1)
-					end
-
-				end
-			end
-		end
-		
-	end)
-
-	spawn(function()
-		
-		if not IsStopped then
-			if Auto_Punch then
-				while Auto_Punch do
-
-					if Auto_Punch then
-						if Fast_Mode then
-							wait(0.35)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"Activate_Punch"})
-						else
-							wait(0.75)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"Activate_Punch"})
-						end
-
-					else
-						wait(1)
-					end
-				end
-			end
-		end
-
-	end)
-
-	spawn(function()
-		
-		if not IsStopped then
-			if Auto_Pet then
-				while Auto_Pet do
-
-					if Auto_Pet then
-						if Fast_Mode then
-							wait(0.055)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
-						else
-							wait(0.65)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"UpgradeCurrentPet"})
-						end
-
-					else
-						wait(1)
-					end
-
-				end
-			end
-		end
-
-	end)
-
-	spawn(function()
-		
-		if not IsStopped then
-			if Auto_Skip then
-				while Auto_Skip do
-
-					if Auto_Skip then
-						if Fast_Mode then
-							wait(0.1)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"WarpPlrToOtherMap", "Next"})
-						else
-							wait(1)
-
-							game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"WarpPlrToOtherMap", "Next"})
-						end
-					else
-						wait(1)
-					end
-
-				end
-			end
-		end
-
 	end)
 end)

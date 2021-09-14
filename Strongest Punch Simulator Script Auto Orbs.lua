@@ -1,3 +1,15 @@
+--[[
+
+!!! DISCLAIMER !!!
+
+DO NOT TOUCH OR CHANGES ANYTHING HERE!!
+
+OR THE ANTI BAN/SECURITY WILL DETECTED!
+
+DO NOT SELL OR RE-MODIFY OR REMAKE THIS SCRIPT/CODE!
+
+]]--
+
 wait(1)
 ---// SETTINGS
 local Orb = false
@@ -10,17 +22,24 @@ local Debounce_1 = false
 
 ---// CREATES
 
-local c13rx3xc4t3 = math.random(0,100)
+--> for Security for Anti-Ban
+local random1 = math.random(100, 999)
+local random2 = math.random(1000, 10000)
+
+local c13rx3xc4t3 = math.random(random1, random2)
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game:GetService("CoreGui")
 
-for i = 1,11 do
+for i = 1,14 do
 	local Random1 = string.char(math.random(string.byte('A'), string.byte('Z')))
 	local Random2 = string.char(math.random(string.byte('a'), string.byte('z')))
 	local Random3 = string.char(math.random(string.byte('0'), string.byte('9')))
+	
+	local random_ = math.random(Random1, random2)
+	local random_2 = math.random(random_, Random3)
 
-	c13rx3xc4t3 = c13rx3xc4t3..Random1..Random2..Random3
+	c13rx3xc4t3 = c13rx3xc4t3..random_2
 end
 
 ScreenGui.Name = c13rx3xc4t3
@@ -84,7 +103,9 @@ Added Auto Upgrade Pet
 
 Removed Auto Load/Saves Settings
 
-Some Fixes
+Some Fixes and Improveds
+
+Update Security for the Script
 
 Updated Version from 1.3.0 to 1.3.6
 

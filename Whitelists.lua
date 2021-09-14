@@ -1,6 +1,6 @@
-local WhiteLists = {
+WhiteLists = {
   
-  1844782254,
-  413107757
+  [1844782254] = "WhiteList",
+  [413107757] = "WhiteList",
   
 }

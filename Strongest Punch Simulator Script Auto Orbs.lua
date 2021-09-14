@@ -29,6 +29,8 @@ end
 ---// CREATES
 
 ---// SETTINGS
+local UserInputService = game:GetService("UserInputService")
+
 local Orb = false
 local Fast_Mode = false
 local Auto_Punch = false
@@ -36,6 +38,9 @@ local Auto_Skip = false
 local Auto_Pet = false
 local Anti_Afk = false
 local IsStopped = false
+local onChoose_keyB_Mz = false
+local isOpen = true
+local Toggle_KeyBind_Minimize = Enum.KeyCode.X
 
 ---// Instance
 local ScreenGui = Instance.new("ScreenGui")
@@ -46,6 +51,7 @@ local Label_Cl_1 = Instance.new("TextLabel")
 local Button_1_Cl = Instance.new("TextButton")
 local CreditLabel = Instance.new("TextLabel")
 local Label = Instance.new("TextLabel")
+local Label_1 = Instance.new("TextLabel")
 local Button_1 = Instance.new("TextButton")
 local Button_2 = Instance.new("TextButton")
 local Button_3 = Instance.new("TextButton")
@@ -54,6 +60,7 @@ local Button_5 = Instance.new("TextButton")
 local Button_6 = Instance.new("ImageButton")
 local Button_7 = Instance.new("TextButton")
 local Button_8 = Instance.new("TextButton")
+local Button_9 = Instance.new("TextButton")
 local UICorner_Frame = Instance.new("UICorner")
 local UICorner_Frame_Cl = Instance.new("UICorner")
 local UICorner_1 = Instance.new("UICorner")
@@ -62,6 +69,7 @@ local UICorner_4 = Instance.new("UICorner")
 local UICorner_5 = Instance.new("UICorner")
 local UICorner_7 = Instance.new("UICorner")
 local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 
 --> for Security for Anti-Ban
 local random1 = math.random(100, 999)
@@ -122,21 +130,19 @@ Label_Cl_1.Parent = Frame_Cl
 Label_Cl_1.ZIndex = 100000000
 Label_Cl_1.BackgroundTransparency = 1
 Label_Cl_1.Text = [[
+Update 1.4.5 [Release]:
 
-Update 1.4.1:
 
-Re-Added Anti-AFK
+Added Keybind Minimize Toggle
 
-Now without Fast Auto Mode
-more faster than normal
-but Fast Auto Mode More Faster
+Fixed Get Banned
 
 Alots Fixes and Improveds System
 
-Updated Version from 1.3.6 to 1.4.1
+Updated Version from 1.4.1_Beta
+to 1.4.5_Release
 
 ]]
-
 Label_Cl_1.TextSize = 1
 Label_Cl_1.Font = Enum.Font.GothamBold
 Label_Cl_1.TextColor3 = Color3.new(255,255,255)
@@ -163,13 +169,11 @@ Button_1_Cl.TextTransparency = 1
 CreditLabel.Parent = Frame
 CreditLabel.ZIndex = 10000000
 CreditLabel.BackgroundTransparency = 1
-
-CreditLabel.Text = "Created By Immortal#1000 | Version 1.4.1 | SloExploits"
-
+CreditLabel.Text = "Created By Immortal#1000 | Version 1.4.5 | SloExploits"
 CreditLabel.TextSize = 12
 CreditLabel.Font = Enum.Font.GothamBold
 CreditLabel.TextColor3 = Color3.new(255,255,255)
-CreditLabel.Size = UDim2.new(1,0,0.55,0)
+CreditLabel.Size = UDim2.new(1,0,0.65,0)
 CreditLabel.Position = UDim2.new(0,0,0.62,0)
 CreditLabel.Visible = true
 CreditLabel.TextTransparency = 1
@@ -186,12 +190,25 @@ Label.Position = UDim2.new(0,0,-0.165,0)
 Label.Visible = true
 Label.TextTransparency = 1
 
+Label_1.Parent = Frame
+Label_1.ZIndex = 10000000
+Label_1.BackgroundTransparency = 1
+Label_1.Text = "Keybind Minimize: "
+Label_1.TextSize = 14
+Label_1.Font = Enum.Font.GothamBold
+Label_1.TextColor3 = Color3.new(255,255,255)
+Label_1.Size = UDim2.new(0.1,0,0.05,0)
+Label_1.TextXAlignment = Enum.TextXAlignment.Left
+Label_1.Position = UDim2.new(0.28,0,0.71,0)
+Label_1.Visible = true
+Label_1.TextTransparency = 1
+
 Button_1.Parent = Frame
 Button_1.ZIndex = 10000000
 Button_1.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_1.Name = "ToggleButton_1_Off"
 Button_1.Text = "Auto Orbs [OFF]"
-Button_1.Size = UDim2.new(0.3,0,0.3,0)
+Button_1.Size = UDim2.new(0.3,0,0.2,0)
 Button_1.Position = UDim2.new(0.04,0,0.14,0)
 Button_1.Font = Enum.Font.GothamBold
 Button_1.TextSize = 12
@@ -216,7 +233,7 @@ Button_3.ZIndex = 10000000
 Button_3.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_3.Name = "ToggleButton_3_Off"
 Button_3.Text = "Fast Auto Mode [OFF]"
-Button_3.Size = UDim2.new(0.3,0,0.3,0)
+Button_3.Size = UDim2.new(0.3,0,0.2,0)
 Button_3.Position = UDim2.new(0.355,0,0.14,0)
 Button_3.Font = Enum.Font.GothamBold
 Button_3.TextSize = 12
@@ -227,7 +244,7 @@ Button_4.ZIndex = 10000000
 Button_4.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_4.Name = "ToggleButton_4_Off"
 Button_4.Text = "Auto Punch [OFF]"
-Button_4.Size = UDim2.new(0.3,0,0.3,0)
+Button_4.Size = UDim2.new(0.3,0,0.2,0)
 Button_4.Position = UDim2.new(0.675,0,0.14,0)
 Button_4.Font = Enum.Font.GothamBold
 Button_4.TextSize = 12
@@ -238,8 +255,8 @@ Button_5.ZIndex = 10000000
 Button_5.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_5.Name = "ToggleButton_5_Off"
 Button_5.Text = "Auto Skip [OFF]"
-Button_5.Size = UDim2.new(0.3,0,0.3,0)
-Button_5.Position = UDim2.new(0.04,0,0.48,0)
+Button_5.Size = UDim2.new(0.3,0,0.2,0)
+Button_5.Position = UDim2.new(0.04,0,0.38,0)
 Button_5.Font = Enum.Font.GothamBold
 Button_5.TextSize = 12
 Button_5.BackgroundTransparency = 1
@@ -248,8 +265,8 @@ Button_6.Parent = Frame
 Button_6.ZIndex = 10000000
 Button_6.BackgroundColor3 = Color3.new(0, 0, 0)
 Button_6.Name = "ToggleButton_6_Cl"
-Button_6.Size = UDim2.new(0.055,0,0.1,0)
-Button_6.Position = UDim2.new(0.02,0,0.002,0)
+Button_6.Size = UDim2.new(0.05,0,0.1,0)
+Button_6.Position = UDim2.new(0.02,0,0.01,0)
 Button_6.BorderSizePixel = 0
 Button_6.BackgroundTransparency = 1
 Button_6.Image = "rbxassetid://3926305904"
@@ -262,8 +279,8 @@ Button_7.ZIndex = 10000000
 Button_7.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_7.Name = "ToggleButton_7_Off"
 Button_7.Text = "Auto Upgrade Pet [OFF]"
-Button_7.Size = UDim2.new(0.3,0,0.3,0)
-Button_7.Position = UDim2.new(0.355,0,0.48,0)
+Button_7.Size = UDim2.new(0.3,0,0.2,0)
+Button_7.Position = UDim2.new(0.355,0,0.38,0)
 Button_7.Font = Enum.Font.GothamBold
 Button_7.TextSize = 11
 Button_7.BackgroundTransparency = 1
@@ -273,11 +290,24 @@ Button_8.ZIndex = 10000000
 Button_8.BackgroundColor3 = Color3.new(255, 0, 0)
 Button_8.Name = "ToggleButton_8_Off"
 Button_8.Text = "Anti-AFK [OFF]"
-Button_8.Size = UDim2.new(0.3,0,0.3,0)
-Button_8.Position = UDim2.new(0.675,0,0.48,0)
+Button_8.Size = UDim2.new(0.3,0,0.2,0)
+Button_8.Position = UDim2.new(0.675,0,0.38,0)
 Button_8.Font = Enum.Font.GothamBold
 Button_8.TextSize = 11
 Button_8.BackgroundTransparency = 1
+
+Button_9.Parent = Frame
+Button_9.ZIndex = 10000000
+Button_9.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_9.Name = "KeybindButton_9_Off"
+Button_9.Text = UserInputService:GetStringForKeyCode(Toggle_KeyBind_Minimize)
+Button_9.Size = UDim2.new(0.1,0,0.05,0)
+Button_9.Position = UDim2.new(0.545,0,0.71,0)
+Button_9.Font = Enum.Font.GothamBold
+Button_9.TextSize = 11
+Button_9.BackgroundTransparency = 0.75
+Button_9.TextTransparency = 1
+Button_9.TextColor3 = Color3.new(255,255,255)
 
 UICorner_Frame.Parent = Frame
 UICorner_Frame_Cl.Parent = Frame_Cl
@@ -287,14 +317,16 @@ UICorner_4.Parent = Button_4
 UICorner_5.Parent = Button_5
 UICorner_7.Parent = Button_7
 UICorner_8.Parent = Button_8
+UICorner_9.Parent = Button_9
+UICorner_9.CornerRadius = UDim.new(0,3)
 
-
-Frame:TweenSize(UDim2.new(0.35,0,0.4))
+Frame:TweenSize(UDim2.new(0.35,0,0.4,0))
 wait(0.15)
 
 for i = 1,10 do
 	CreditLabel.TextTransparency -= 0.1
 	Label.TextTransparency -= 0.1
+	Label_1.TextTransparency -= 0.1
 	Button_1.BackgroundTransparency -= 0.1
 	Button_2.TextTransparency -= 0.1
 	Button_3.BackgroundTransparency -= 0.1
@@ -303,6 +335,7 @@ for i = 1,10 do
 	Button_6.ImageTransparency -= 0.1
 	Button_7.BackgroundTransparency -= 0.1
 	Button_8.BackgroundTransparency -= 0.1
+	Button_9.TextTransparency -= 0.1
 	wait(0.1)
 end
 
@@ -442,6 +475,86 @@ function autoSkip()
 		end
 	end
 end
+
+local UIS = game:GetService("UserInputService")
+local DB_1 = false
+local DB_2 = false
+
+function changeKeybind()
+	UIS.InputBegan:Connect(function(Input, IsTyping)
+		if IsTyping then return end
+
+		if onChoose_keyB_Mz then
+			if DB_1 then return end
+
+			DB_1 = true
+			
+			wait()
+				
+			if Input.KeyCode == Enum.KeyCode.LeftControl then
+				Button_9.Text = "Left_CTRL"
+				
+				Toggle_KeyBind_Minimize = Input.KeyCode
+				
+			elseif Input.KeyCode == Enum.KeyCode.LeftAlt then
+				Button_9.Text = "Left_ALT"
+				
+				Toggle_KeyBind_Minimize = Input.KeyCode
+				
+			elseif  Input.KeyCode == Enum.KeyCode.RightControl then
+				Button_9.Text = "Right_CTRL"
+				
+				Toggle_KeyBind_Minimize = Input.KeyCode
+				
+			elseif Input.KeyCode == Enum.KeyCode.RightAlt then
+				Button_9.Text = "Right_ALT"
+				
+				Toggle_KeyBind_Minimize = Input.KeyCode
+			else
+				Toggle_KeyBind_Minimize = Input.KeyCode
+				wait()
+				Button_9.Text = UserInputService:GetStringForKeyCode(Toggle_KeyBind_Minimize)
+			end
+			
+			DB_1 = false
+			onChoose_keyB_Mz = false
+		end
+	end)
+end
+
+UIS.InputBegan:Connect(function(Input, IsTyping)
+	if IsTyping then return end
+	
+	if DB_2 then return end
+	
+	if not onChoose_keyB_Mz then
+		
+		if Input.KeyCode == Toggle_KeyBind_Minimize then
+			
+			if isOpen then
+				DB_2 = true
+				
+				Frame.Visible = false
+				
+				if Frame_Cl.Visible == true then
+					Frame_Cl.Visible = false
+				end
+				
+				isOpen = false
+				wait()
+				DB_2 = false
+			else
+				DB_2 = true
+				
+				Frame.Visible = true
+				wait()
+				isOpen = true
+				DB_2 = false
+			end
+		end
+	end
+end)
+
 ---// BUTTONS CLICK
 
 Button_1.MouseButton1Click:Connect(function()
@@ -630,6 +743,20 @@ Button_8.MouseButton1Click:Connect(function()
 		Anti_Afk = false
 		wait()
 
+	end
+end)
+
+Button_9.MouseButton1Click:Connect(function()
+	
+	if onChoose_keyB_Mz then
+		onChoose_keyB_Mz = false
+		Button_9.Text = UserInputService:GetStringForKeyCode(Toggle_KeyBind_Minimize)
+		wait(1)
+	else
+		onChoose_keyB_Mz = true
+		Button_9.Text = "..."
+		wait()
+		changeKeybind()
 	end
 end)
 

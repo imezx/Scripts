@@ -1,5 +1,9 @@
 --[[
 
+--- MUST READ ---
+
+-->> WARNING <<--
+
 !!! DISCLAIMER !!!
 
 DO NOT TOUCH OR CHANGES ANYTHING HERE!!
@@ -17,8 +21,6 @@ local Fast_Mode = false
 local Auto_Punch = false
 local Auto_Skip = false
 local Auto_Pet = false
-local _LOAD = false
-local Debounce_1 = false
 
 ---// CREATES
 

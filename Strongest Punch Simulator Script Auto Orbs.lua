@@ -44,7 +44,9 @@ for i = 1,14 do
 	c13rx3xc4t3 = c13rx3xc4t3..random_2
 end
 
-ScreenGui.Name = c13rx3xc4t3
+--// END OF CREATED SECURITY
+
+ScreenGui.Name = c13rx3xc4t3 -- INPUT THE RESULT SECURITY FOR SECURE THE SCRIPT FROM PROTECTOR GAME
 ScreenGui.Enabled = true
 
 ---/// WAIT TILL GAME IS LOADED
